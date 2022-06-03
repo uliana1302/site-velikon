@@ -1,0 +1,187 @@
+body {
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow-x: hidden;
+}
+.start {
+  top: 0;
+  left: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+}
+.fon {
+  /* background-image: url("../images/главная.png"); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: .2;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 50;
+}
+.t-d {
+  left: -1vw;
+  top: -11vw;
+  height: 150vh;
+  width: 807vw;
+  position: absolute;
+  animation: t-d 11s 2s linear;
+}
+@keyframes t-d {
+  0% {left: -1vw;}
+  90%, 100% {left: -708vw;}
+}
+.t-d > p{
+  font-family: "DAMN";
+  font-size: 163vh;
+  color: #0092FF;
+  letter-spacing: -5vh;
+}
+.h {
+  display: none;
+  position: absolute;
+}
+.menu-rec {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 8.33vw;
+  background-color: black;
+  z-index: 5;
+}
+.chemodan {
+  background-image: url("../images/чемодан.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 49vw;
+  width: 62.5vw;
+  top: 31.5vw;
+  left: 40.5vw;
+  z-index: 5;
+}
+.map {
+  background-image: url("../images/карта.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 19.1vw;
+  width: 35vw;
+  top: 4vw;
+  left: -8.8vw;
+  z-index: 5;
+}
+.hand {
+  background-image: url("../images/рука.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 50.2vw;
+  width: 66vw;
+  top: 1.5vw;
+  left: -3vw;
+  z-index: 10;
+}
+.sign {
+  background-image: url("../images/знак.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 65.6vw;
+  width: 24.5vw;
+  top: -3vw;
+  left: 34.5vw;
+  z-index: 20;
+}
+.pugov {
+  background-image: url("../images/пуговица.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 15.9vw;
+  width: 15.9vw;
+  top: 12vw;
+  left: 59.5vw;
+  z-index: 5;
+}
+.kolon {
+  background-image: url("../images/колонна.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 105vh;
+  width: 27.1vw;
+  top: -2vw;
+  left: 73.2vw;
+  z-index: 10;
+}
+.logo {
+  background-image: url("../images/logo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 6.4vw;
+  width: 9vw;
+  top: 0.95vw;
+  left: -0.7vw;
+  z-index: 10;
+}
+.korzina {
+  background-image: url("../images/корзина.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 31.3vw;
+  width: 41vw;
+  top: 37vw;
+  left: -2vw;
+  z-index: 40;
+}
+.info-button {
+  height: 9vw;
+  width: 100vw;
+  top: 52vw;
+  right: 2vw;
+  z-index: 30;
+}
+.info-circle {
+  height: 9vw;
+  width: 9vw;
+  border-radius: 50%;
+  top: 0;
+  right: 0;
+  position: absolute;
+  background-color: black;
+}
+.info-i {
+  background-image: url("../images/i.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5.3vw;
+  width: 0.7vw;
+  top: 1.7vw;
+  right: 4.1vw;
+  position: absolute;
+}
+.click {
+  display: none;
+}
+.info-rec {
+  height: 9vw;
+  width: 94vw;
+  top: 0;
+  left: 1vw;
+  background-color: black;
+  position: absolute;
+}
+.info-text {
+  height: 31.3vw;
+  width: 37.4vw;
+  top: 1.7vw;
+  left: 60.5vw;
+  position: absolute;
+}
+.info-text > p{
+  font-family: "OktaNeue-Regular";
+  font-size: 2vw;
+  line-height: 2vw;
+  color: white;
+}
