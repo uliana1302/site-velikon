@@ -1,0 +1,26 @@
+@import 'reset.css';
+/* стартовый экран */
+@import 'start.css';
+/* о нас */
+@import 'about.css';
+/* адаптивность */
+@import 'responsive.css';
+
+@font-face {
+    font-family: "DAMN";
+    src: url("../fonts/DAMN.ttf") format("truetype");
+}
+@font-face {
+    font-family: "OktaNeue-Regular";
+    src: url("../fonts/OktaNeue-Regular.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Radiotechnika";
+    src: url("../fonts/Radiotechnika.otf") format("opentype");
+}
+@font-face {
+    font-family: "OktaNeue-Light";
+    src: url("../fonts/OktaNeue-Light.ttf") format("truetype");
+    /* font-style: normal;
+    font-weight: 400; */
+}
