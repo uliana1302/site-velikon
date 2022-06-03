@@ -14,7 +14,7 @@ body {
   position: relative;
 }
 .fon {
-  /* background-image: url("../images/главная.png"); */
+  background-image: url("../images/1920х1080.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: .2;
