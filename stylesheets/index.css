@@ -3,6 +3,7 @@ body {
   height: 100vh;
   width: 100vw;
   overflow-x: hidden;
+  /* cursor: ; */
 }
 .start {
   top: 0;
@@ -202,3 +203,74 @@ body {
   line-height: 2vw;
   color: white;
 }
+
+
+/* пустые блоки для ховера */
+.block-chemodan {
+  height: 26.3vw;
+  width: 18.7vw;
+  top: 34.7vw;
+  left: 57.9vw;
+  z-index: 400;
+}
+.block-map {
+  height: 15.3vw;
+  width: 18.4vw;
+  top: 7.7vw;
+  left: 0.5vw;
+  z-index: 400;
+}
+.block-hand {
+  height: 14.3vw;
+  width: 37.4vw;
+  top: 23.7vw;
+  left: 6.5vw;
+  z-index: 400;
+}
+.block-sign {
+  height: 60.3vw;
+  width: 7.4vw;
+  top: 1.7vw;
+  left: 44.5vw;
+  z-index: 400;
+}
+.block-pugov {
+  height: 15.3vw;
+  width: 15.4vw;
+  top: 12.7vw;
+  left: 59.5vw;
+  z-index: 400;
+}
+.block-kolon {
+  height: 60.3vw;
+  width: 23.4vw;
+  top: 1.7vw;
+  left: 76.5vw;
+  z-index: 400;
+}
+.block-korzina {
+  height: 23.3vw;
+  width: 37.4vw;
+  top: 38.7vw;
+  left: 0.5vw;
+  z-index: 400;
+}
+
+.t {
+  opacity: 0;
+  top: 2vw;
+  z-index: 400;
+}
+.t > p {
+  font-family: "OktaNeue-Regular";
+  font-size: 2vw;
+  line-height: 2vw;
+  color: white;
+}
+.p-chemodan {left: 64vw;}
+.p-map {left: 11vw;}
+.p-hand {left: 24vw;}
+.p-sign {left: 45vw;}
+.p-pugov {left: 61vw;}
+.p-kolon {left: 84vw;}
+.p-korzina {left: 14vw;}
