@@ -13,7 +13,7 @@ body {
   overflow: hidden;
   position: relative;
 }
-.fon {
+/* .fon {
   background-image: url("../images/1920х1080.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -24,14 +24,14 @@ body {
   top: 0;
   left: 0;
   z-index: 50;
-}
+} */
 .t-d {
   left: -1vw;
-  top: -11vw;
+  top: -10vw;
   height: 150vh;
   width: 807vw;
   position: absolute;
-  animation: t-d 11s 2s linear;
+  animation: t-d 11s 2s ease-out;
 }
 @keyframes t-d {
   0% {left: -1vw;}
@@ -42,6 +42,23 @@ body {
   font-size: 163vh;
   color: #0092FF;
   letter-spacing: -5vh;
+}
+.ruka-t {
+  background-image: url("../images/ruka-t.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  right: 1vw;
+  bottom: 0;
+  height: 46.5vw;
+  width: 29.3vw;
+  opacity: 0;
+  position: absolute;
+  animation: ruka-t 11s 2s ease-out;
+}
+@keyframes ruka-t {
+  0% {opacity: 0;}
+  89% {opacity: 0; bottom: -46vw;}
+  90%, 100% {opacity: 1; bottom: 0;}
 }
 .h {
   display: none;
@@ -138,7 +155,7 @@ body {
 .info-button {
   height: 9vw;
   width: 100vw;
-  top: 52vw;
+  bottom: 1vw;
   right: 2vw;
   z-index: 30;
 }
