@@ -48,4 +48,7 @@ $(function () {
    $(".p-korzina").css("opacity", "0");
  });
 
+ // клик на кнопку информации
+   // $(".info-circle").toggleClass("click");
+
 });
