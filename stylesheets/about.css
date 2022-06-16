@@ -1,0 +1,160 @@
+.about {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+header {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 8.33vw;
+  background-color: #0092FF;
+  z-index: 5;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.logo {
+  background-image: url("../images/logo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5.5vw;
+  width: 7.7vw;
+  z-index: 610;
+}
+.menu-items {
+  width: 68.4vw;
+  height: 8.33vw;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  display: flex;
+}
+.chemodan_menu {
+  background-image: url("../images/чемодан.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5.7vw;
+  width: 7.2vw;
+  z-index: 5;
+  margin-left: 1.5vw;
+  margin-right: 2.5vw;
+  /* cursor: url("../images/cursor/tour.svg"), auto; */
+}
+.map_menu {
+  background-image: url("../images/карта.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 4.7vw;
+  width: 8.5vw;
+  z-index: 5;
+  margin-left: 1.5vw;
+  margin-right: 2vw;
+  /* cursor: url("../images/cursor/contacts.svg"), auto; */
+}
+.hand_menu {
+  background-image: url("../images/рука.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 4.9vw;
+  width: 6vw;
+  z-index: 10;
+  transform: rotate(-90deg);
+  margin-left: 1.5vw;
+  margin-right: 2.7vw;
+  /* cursor: url("../images/cursor/o_nas.svg"), auto; */
+}
+.sign_menu {
+  background-image: url("../images/знак.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5.5vw;
+  width: 4vw;
+  z-index: 20;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  /* cursor: url("../images/cursor/faq.svg"), auto; */
+}
+.pugov_menu {
+  background-image: url("../images/пуговица.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5.8vw;
+  width: 5.8vw;
+  z-index: 5;
+  margin-left: 1.5vw;
+  margin-right: 2.2vw;
+  /* cursor: url("../images/cursor/events.svg"), auto; */
+}
+.kolon_menu {
+  background-image: url("../images/колонна.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5.7vw;
+  width: 5vw;
+  z-index: 10;
+  margin-left: 1.5vw;
+  margin-right: 2.5vw;
+  /* cursor: url("../images/cursor/museum.svg"), auto; */
+}
+.korzina_menu {
+  background-image: url("../images/корзина.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 6vw;
+  width: 8vw;
+  z-index: 400;
+  margin-left: 1.5vw;
+  margin-right: 1.5vw;
+  /* cursor: url("../images/cursor/store.svg"), auto; */
+}
+.render_1 {
+  margin: 0;
+  width: 100vw;
+  height: 39.5vw;
+}
+.render1 {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 39.5vw;
+  background-image: url("../images/render1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.block1 {
+  margin: 0;
+  border-bottom: 1px solid black;
+  width: 100vw;
+  height: 13vw;
+}
+.block2 {
+  margin: 0;
+  border: 1px solid black;
+  width: 100vw;
+  height: 13vw;
+}
+.block3 {
+  margin: 0;
+  border-top: 1px solid black;
+  width: 100vw;
+  height: 13vw;
+}
+.animation_1 {
+  margin: 0;
+  width: 100vw;
+  height: 39.5vw;
+  top: 0;
+  left: 0;
+  background-image: url("../images/anim1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+footer {
+  margin: 0;
+  background-color: black;
+  width: 100vw;
+  height: 5vw;
+}
