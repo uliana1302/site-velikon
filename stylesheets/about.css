@@ -236,4 +236,47 @@ footer {
   background-color: black;
   width: 100vw;
   height: 5vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+.logos {
+  width: 10.27vw;
+  height: 1.75vw;
+  background-image: url("../images/logos.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: 4vw;
+}
+.text1 {
+  width: 11vw;
+  margin-left: -25vw;
+}
+.text1 > p {
+  font-family: "OktaNeue-Regular";
+  font-size: 0.76vw;
+  line-height: 1vw;
+  color: white;
+}
+.text2 {
+  width: 13.7vw;
+  margin-left: 1vw;
+}
+.text2 > p {
+  font-family: "OktaNeue-Regular";
+  font-size: 0.76vw;
+  line-height: 1vw;
+  color: white;
+}
+.text3 {
+  width: 2.22vw;
+  margin-right: 4vw;
+  margin-bottom: -1vw;
+}
+.text3 > p {
+  font-family: "OktaNeue-Regular";
+  font-size: 0.76vw;
+  line-height: 1vw;
+  color: white;
 }
