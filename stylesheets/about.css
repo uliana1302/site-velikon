@@ -124,6 +124,33 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.circle1 {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 18vw;
+  left: 5vw;
+}
+.circle2 {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 45vw;
+  left: 57vw;
+}
+.circle3 {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 23vw;
+  left: 87vw;
+}
 .block1 {
   margin: 0;
   border-bottom: 1px solid black;
