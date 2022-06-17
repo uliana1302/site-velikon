@@ -41,7 +41,7 @@ header {
   z-index: 5;
   margin-left: 1.5vw;
   margin-right: 2.5vw;
-  /* cursor: url("../images/cursor/tour.svg"), auto; */
+  cursor: url("../images/cursor/tour.svg"), auto;
 }
 .map_menu {
   background-image: url("../images/карта.svg");
@@ -52,7 +52,7 @@ header {
   z-index: 5;
   margin-left: 1.5vw;
   margin-right: 2vw;
-  /* cursor: url("../images/cursor/contacts.svg"), auto; */
+  cursor: url("../images/cursor/contacts.svg"), auto;
 }
 .hand_menu {
   background-image: url("../images/рука.svg");
@@ -64,7 +64,7 @@ header {
   transform: rotate(-90deg);
   margin-left: 1.5vw;
   margin-right: 2.7vw;
-  /* cursor: url("../images/cursor/o_nas.svg"), auto; */
+  cursor: url("../images/cursor/o_nas.svg"), auto;
 }
 .sign_menu {
   background-image: url("../images/знак.svg");
@@ -75,7 +75,7 @@ header {
   z-index: 20;
   margin-left: 1.5vw;
   margin-right: 1.5vw;
-  /* cursor: url("../images/cursor/faq.svg"), auto; */
+  cursor: url("../images/cursor/faq.svg"), auto;
 }
 .pugov_menu {
   background-image: url("../images/пуговица.svg");
@@ -86,7 +86,7 @@ header {
   z-index: 5;
   margin-left: 1.5vw;
   margin-right: 2.2vw;
-  /* cursor: url("../images/cursor/events.svg"), auto; */
+  cursor: url("../images/cursor/events.svg"), auto;
 }
 .kolon_menu {
   background-image: url("../images/колонна.svg");
@@ -97,7 +97,7 @@ header {
   z-index: 10;
   margin-left: 1.5vw;
   margin-right: 2.5vw;
-  /* cursor: url("../images/cursor/museum.svg"), auto; */
+  cursor: url("../images/cursor/museum.svg"), auto;
 }
 .korzina_menu {
   background-image: url("../images/корзина.svg");
@@ -108,7 +108,7 @@ header {
   z-index: 400;
   margin-left: 1.5vw;
   margin-right: 1.5vw;
-  /* cursor: url("../images/cursor/store.svg"), auto; */
+  cursor: url("../images/cursor/store.svg"), auto;
 }
 .render_1 {
   margin: 0;
