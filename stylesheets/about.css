@@ -129,18 +129,94 @@ header {
   border-bottom: 1px solid black;
   width: 100vw;
   height: 13vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
 }
+.zagolovok1 {
+  width: 52.4vw;
+}
+.zagolovok1 > p {
+  font-family: "Radiotechnika";
+  font-size: 5vw;
+}
+.podpic1 {
+  width: 19vw;
+}
+.podpic1 > p {
+  font-family: "OktaNeue-Regular";
+  font-size: 0.76vw;
+}
+.knopka1 {
+  width: 6.5vw;
+  height: 6.5vw;
+  background-image: url("../images/knopka1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.zagolovok2 {
+  width: 52.4vw;
+}
+.zagolovok2 > p {
+  font-family: "Radiotechnika";
+  font-size: 5vw;
+}
+.podpic2 {
+  width: 19vw;
+}
+.podpic2 > p {
+  font-family: "OktaNeue-Regular";
+  font-size: 0.76vw;
+}
+.knopka2 {
+  width: 6.5vw;
+  height: 6.5vw;
+  background-image: url("../images/knopka1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.zagolovok3 {
+  width: 52.4vw;
+}
+.zagolovok3 > p {
+  font-family: "Radiotechnika";
+  font-size: 5vw;
+}
+.podpic3 {
+  width: 19vw;
+}
+.podpic3 > p {
+  font-family: "OktaNeue-Regular";
+  font-size: 0.76vw;
+}
+.knopka3 {
+  width: 6.5vw;
+  height: 6.5vw;
+  background-image: url("../images/knopka1.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .block2 {
   margin: 0;
   border: 1px solid black;
   width: 100vw;
   height: 13vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
 }
 .block3 {
   margin: 0;
   border-top: 1px solid black;
   width: 100vw;
   height: 13vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  display: flex;
 }
 .animation_1 {
   margin: 0;
