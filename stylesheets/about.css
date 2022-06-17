@@ -158,11 +158,15 @@ header {
   height: 10vw;
   flex-direction: row;
   justify-content: space-around;
-  align-items: center;
+  align-items: flex-start;
   display: flex;
+}
+.open1 {
+  height: 52vw;
 }
 .zagolovok1 {
   width: 52.4vw;
+  margin-top: 3vw;
 }
 .zagolovok1 > p {
   font-family: "Radiotechnika";
@@ -170,7 +174,7 @@ header {
 }
 .podpic1 {
   width: 19vw;
-  margin-bottom: -2vw;
+  margin-top: 5.5vw;
 }
 .podpic1 > p {
   font-family: "OktaNeue-Regular";
@@ -182,9 +186,24 @@ header {
   background-image: url("../images/knopka1.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 2vw;
+}
+.block2 {
+  margin: 0;
+  border: 1px solid black;
+  width: 100vw;
+  height: 10vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+}
+.open2 {
+  height: 50.7vw;
 }
 .zagolovok2 {
   width: 52.4vw;
+  margin-top: 3vw;
 }
 .zagolovok2 > p {
   font-family: "Radiotechnika";
@@ -192,7 +211,7 @@ header {
 }
 .podpic2 {
   width: 19vw;
-  margin-bottom: -3vw;
+  margin-top: 6vw;
 }
 .podpic2 > p {
   font-family: "OktaNeue-Regular";
@@ -204,9 +223,24 @@ header {
   background-image: url("../images/knopka1.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 2vw;
+}
+.block3 {
+  margin: 0;
+  border-top: 1px solid black;
+  width: 100vw;
+  height: 10vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+}
+.open3 {
+  height: 68.75vw;
 }
 .zagolovok3 {
   width: 52.4vw;
+  margin-top: 3vw;
 }
 .zagolovok3 > p {
   font-family: "Radiotechnika";
@@ -214,7 +248,7 @@ header {
 }
 .podpic3 {
   width: 19vw;
-  margin-bottom: -3vw;
+  margin-top: 6vw;
 }
 .podpic3 > p {
   font-family: "OktaNeue-Regular";
@@ -226,27 +260,15 @@ header {
   background-image: url("../images/knopka1.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  margin-top: 2vw;
 }
-
-.block2 {
-  margin: 0;
-  border: 1px solid black;
-  width: 100vw;
-  height: 10vw;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
-}
-.block3 {
-  margin: 0;
-  border-top: 1px solid black;
-  width: 100vw;
-  height: 10vw;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  display: flex;
+.knopka4 {
+  width: 6.5vw;
+  height: 6.5vw;
+  background-image: url("../images/knopka2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 2vw;
 }
 .animation_1 {
   margin: 0;
@@ -278,7 +300,8 @@ footer {
 }
 .text1 {
   width: 11vw;
-  margin-left: -25vw;
+  margin-left: -16vw;
+  margin-right: 20vw;
 }
 .text1 > p {
   font-family: "OktaNeue-Regular";
