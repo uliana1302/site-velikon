@@ -280,3 +280,21 @@ footer {
   line-height: 1vw;
   color: white;
 }
+.mini_velikan {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100vw;
+  height: 2vw;
+  border-bottom: 1px solid black;
+}
+.velikan {
+  width: 4.1vw;
+  height: 2vw;
+  top: 0vw;
+  left: 2vw;
+  background-image: url("../images/Subtract.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+}
