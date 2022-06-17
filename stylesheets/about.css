@@ -143,6 +143,7 @@ header {
 }
 .podpic1 {
   width: 19vw;
+  margin-bottom: -2vw;
 }
 .podpic1 > p {
   font-family: "OktaNeue-Regular";
@@ -164,6 +165,7 @@ header {
 }
 .podpic2 {
   width: 19vw;
+  margin-bottom: -3vw;
 }
 .podpic2 > p {
   font-family: "OktaNeue-Regular";
@@ -185,6 +187,7 @@ header {
 }
 .podpic3 {
   width: 19vw;
+  margin-bottom: -3vw;
 }
 .podpic3 > p {
   font-family: "OktaNeue-Regular";
