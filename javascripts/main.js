@@ -3,6 +3,22 @@ $(function () {
  // появление объектов на главной странице
  setTimeout( "jQuery('.h').show();",14000 );
 
+ $(".knopka1").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block1").toggleClass("open1");
+   $(".kontent1").toggleClass("hidden1");
+ });
+ $(".knopka2").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block2").toggleClass("open2");
+   $(".kontent2").toggleClass("hidden2");
+ });
+ $(".knopka3").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block3").toggleClass("open3");
+   $(".kontent3").toggleClass("hidden3");
+ });
+
  // появление названий разделов при наведении
  // $(".block-chemodan").hover(function(){
  //   $(".p-chemodan").css("opacity", "1");
