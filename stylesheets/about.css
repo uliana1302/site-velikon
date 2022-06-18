@@ -26,6 +26,7 @@ header {
     height: 5.5vw;
     width: 7.7vw;
     z-index: 610;
+    cursor: url("../images/cursor/main.svg"), auto;
   }
   /* картинки меню */
   .menu-items {
@@ -144,6 +145,9 @@ header {
     top: 11.5vw;
     left: 4vw;
   }
+  .circle1:hover {
+    background-color: #0092FF;
+  }
   .rec1 {
     position: absolute;
     width: 10vw;
@@ -192,6 +196,9 @@ header {
     top: 36.7vw;
     left: 56vw;
   }
+  .circle2:hover {
+    background-color: #0092FF;
+  }
     /* блок3 */
   .rec3 {
     position: absolute;
@@ -220,6 +227,9 @@ header {
     position: absolute;
     top: 16.2vw;
     left: 87vw;
+  }
+  .circle3:hover {
+    background-color: #0092FF;
   }
 
 
@@ -314,7 +324,7 @@ header {
     background-size: cover;
     margin-top: 2vw;
   }
-  /* контен в открытом виде */
+  /* контент в открытом виде */
   .open2 {
     height: 37vw;
     position: relative;
@@ -421,7 +431,6 @@ header {
     height: 48vw;
     top: 8vw;
     left: 4vw;
-}
   }
   .block3-content {
     flex-direction: column;
@@ -444,55 +453,79 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .bl-img1:hover {
+    transform: scale(1.2);
+  }
   .bl-img2 {
     width: 31.3vw;
     height: 16.7vw;
     background-image: url("../images/img2.svg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+  }
+  .bl-img2:hover {
+    transform: scale(1.2);
+  }
   .bl-img3 {
     width: 34.1vw;
     height: 43.2vw;
     background-image: url("../images/img3.svg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+  }
+  .bl-img3:hover {
+    transform: scale(1.2);
+  }
   .bl-img4 {
     width: 17.5vw;
     height: 17.5vw;
     background-image: url("../images/img4.svg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+  }
+  .bl-img4:hover {
+    transform: scale(1.2);
+  }
   .bl-img5 {
     width: 34.5vw;
     height: 27.4vw;
     background-image: url("../images/img5.svg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+  }
+  .bl-img5:hover {
+    transform: scale(1.2);
+  }
   .bl-img6 {
     width: 17.5vw;
     height: 17.5vw;
     background-image: url("../images/img6.svg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+  }
+  .bl-img6:hover {
+    transform: scale(1.2);
+  }
   .bl-img7 {
     width: 26vw;
     height: 37.1vw;
     background-image: url("../images/img7.svg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+  }
+  .bl-img7:hover {
+    transform: scale(1.2);
+  }
   .bl-img8 {
     width: 28.6vw;
     height: 20.7vw;
     background-image: url("../images/img8.svg");
     background-repeat: no-repeat;
     background-size: cover;
-}
+  }
+  .bl-img8:hover {
+    transform: scale(1.2);
+  }
   .bl3-t {
     width: 300vw;
     height: 4vw;
@@ -531,6 +564,11 @@ header {
   background-image: url("../images/anim1.svg");
   background-repeat: no-repeat;
   background-size: cover;
+  animation: anim1 1.5s ease-in-out infinite;
+}
+@keyframes anim1 {
+  0% {background-image: url("../images/anim1.svg");}
+  100% {background-image: url("../images/anim1-1.svg");}
 }
 
 
