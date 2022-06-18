@@ -15,7 +15,7 @@ body {
   position: relative;
 }
 .fon {
-  background-image: url("../images/about.png");
+  background-image: url("../images/о нас-1.png");
   background-repeat: no-repeat;
   background-size: cover;
   opacity: .2;
@@ -26,6 +26,8 @@ body {
   left: 0;
   z-index: 550;
 }
+
+/* анимация текста  */
 .t-d {
   left: -555vw;
   top: -10vw;
@@ -44,35 +46,14 @@ body {
   color: #0092FF;
   letter-spacing: -5vh;
 }
-/* .ruka-t {
-  background-image: url("../images/ruka-t.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  right: 1vw;
-  bottom: 0;
-  height: 46.5vw;
-  width: 29.3vw;
-  opacity: 0;
-  position: absolute;
-  animation: ruka-t 11s 2s ease-out;
-}
-@keyframes ruka-t {
-  0% {opacity: 0;}
-  89% {opacity: 0; bottom: -46vw;}
-  90%, 100% {opacity: 1; bottom: 0;}
-} */
+
+/* скрытие элементов */
 .h {
   display: none;
   position: absolute;
 }
-/* .menu-rec {
-  top: 0;
-  left: 0;
-  width: 100vw;
-  height: 8.33vw;
-  background-color: black;
-  z-index: 5;
-} */
+
+/* огромные объекты меню */
 .chemodan {
   background-image: url("../images/чемодан.svg");
   background-repeat: no-repeat;
@@ -82,7 +63,6 @@ body {
   top: 31.5vw;
   left: 40.5vw;
   z-index: 5;
-  /* cursor: url("../images/cursor/tour.svg"), auto; */
 }
 .map {
   background-image: url("../images/карта.svg");
@@ -93,7 +73,6 @@ body {
   top: 0vw;
   left: -10.8vw;
   z-index: 5;
-  /* cursor: url("../images/cursor/contacts.svg"), auto; */
 }
 .hand {
   background-image: url("../images/рука.svg");
@@ -126,7 +105,6 @@ body {
   top: 11vw;
   left: 59.5vw;
   z-index: 5;
-  /* cursor: url("../images/cursor/events.svg"), auto; */
 }
 .kolon {
   background-image: url("../images/колонна.svg");
@@ -139,16 +117,6 @@ body {
   z-index: 10;
   cursor: url("../images/cursor/museum.svg"), auto;
 }
-/* .logo {
-  background-image: url("../images/logo.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 6.4vw;
-  width: 9vw;
-  top: 0.95vw;
-  left: -0.7vw;
-  z-index: 10;
-} */
 .korzina {
   background-image: url("../images/корзина.svg");
   background-repeat: no-repeat;
@@ -158,8 +126,9 @@ body {
   top: 33vw;
   left: -2vw;
   z-index: 400;
-  /* cursor: url("../images/cursor/store.svg"), auto; */
 }
+
+/* кнопка информации */
 .info-button {
   height: 9vw;
   width: 100vw;
@@ -186,6 +155,7 @@ body {
   right: 3.8vw;
   position: absolute;
 }
+/* кнопка по клику */
 .click {
   display: none;
 }
@@ -245,22 +215,3 @@ body {
   z-index: 420;
   cursor: url("../images/cursor/store.svg"), auto;
 }
-
-.t {
-  opacity: 0;
-  top: 2vw;
-  z-index: 400;
-}
-.t > p {
-  font-family: "OktaNeue-Regular";
-  font-size: 2vw;
-  line-height: 2vw;
-  color: white;
-}
-.p-chemodan {left: 64vw;}
-.p-map {left: 11vw;}
-.p-hand {left: 24vw;}
-.p-sign {left: 45vw;}
-.p-pugov {left: 61vw;}
-.p-kolon {left: 84vw;}
-.p-korzina {left: 14vw;}
