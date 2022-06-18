@@ -1,0 +1,154 @@
+/* блок с рендером */
+.render_2 {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 39.5vw;
+  position: relative;
+}
+  /* изображение */
+  .render2 {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 39.5vw;
+    background-image: url("../images/tour-render.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    /* блок1 */
+  .circle2-1 {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 18.5vw;
+    left: 68.3vw;
+  }
+  .circle2-1:hover {
+    background-color: #0092FF;
+  }
+  .rec2-1 {
+    position: absolute;
+    width: 23vw;
+    height: 3vw;
+    top: 15.8vw;
+    left: 69vw;
+    background-color: #0092FF;
+    display: none;
+  }
+  .render_2 p {
+    position: absolute;
+    width: 21.4vw;
+    top: 16.4vw;
+    left: 70.4vw;
+    font-family: "OktaNeue-Light";
+    font-size: 1.7vw;
+    color: white;
+    display: none;
+  }
+/* раздел1 */
+.block2-1 {
+  margin: 0;
+  border-bottom: 1px solid black;
+  width: 100vw;
+  height: 10vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+}
+.zag2-1 {
+  width: 51vw;
+  height: 5vw;
+  overflow: hidden;
+  margin-top: 3vw;
+}
+  .zagolovok2-1 {
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: relative;
+  }
+  .zagolovok2-1:hover {
+    animation: zag2-1 5s linear infinite;
+  }
+  @keyframes zag2-1 {
+    100% {left: -100vw;}
+  }
+  .zagolovok2-1 > p {
+    font-family: "Radiotechnika";
+    font-size: 5vw;
+  }
+  .podpic2-1 {
+    width: 19vw;
+    margin-top: 6.5vw;
+  }
+  .podpic2-1 > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 0.76vw;
+  }
+  .knopka2-1 {
+    width: 6.5vw;
+    height: 6.5vw;
+    background-image: url("../images/knopka1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2vw;
+  }
+  /* контен в открытом виде */
+  .open2-1 {
+    height: 94vw;
+    width: 100vw;
+  }
+  .hidden {
+    display: none;
+  }
+  .tour {
+    position: absolute;
+    top: 57.8vw;
+    left: 0vw;
+  }
+  .img-block2 {
+    width: 100vw;
+    height: 62.4vw;
+    background-image: url("../images/render-tour.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 2vw;
+    left: 0vw;
+  }
+  .knopka2-2 {
+    width: 6.5vw;
+    height: 6.5vw;
+    background-image: url("../images/knopka-tour.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 26vw;
+    left: 47vw;
+    position: absolute;
+  }
+  .block2-1-t {
+    top: 67vw;
+    left: 4vw;
+    width: 52.64vw;
+    height: 24.3vw;
+    position: absolute;
+  }
+  .block2-1-t > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 1.8vw;
+    line-height: 2vw;
+  }
+
+
+  /* кнопка-крест */
+  .knopka4 {
+    width: 6.5vw;
+    height: 6.5vw;
+    background-image: url("../images/knopka2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2vw;
+  }
