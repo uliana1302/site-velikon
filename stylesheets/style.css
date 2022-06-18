@@ -3,6 +3,12 @@
 @import 'index.css';
 /* о нас */
 @import 'about.css';
+/* тур */
+@import 'tour.css';
+/* контакты */
+@import 'contacts.css';
+/* 404 */
+@import '404.css';
 /* адаптивность */
 @import 'responsive.css';
 
