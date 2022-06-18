@@ -4,6 +4,9 @@
   align-items: flex-start;
   display: flex;
 }
+
+
+/* меню */
 header {
   top: 0;
   left: 0;
@@ -16,141 +19,211 @@ header {
   align-items: center;
   display: flex;
 }
-.logo {
-  background-image: url("../images/logo.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 5.5vw;
-  width: 7.7vw;
-  z-index: 610;
-}
-.menu-items {
-  width: 68.4vw;
-  height: 8.33vw;
-  flex-direction: row;
-  justify-content: flex-end;
-  align-items: center;
-  display: flex;
-}
-.chemodan_menu {
-  background-image: url("../images/чемодан.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 5.7vw;
-  width: 7.2vw;
-  z-index: 5;
-  margin-left: 1.5vw;
-  margin-right: 2.5vw;
-  cursor: url("../images/cursor/tour.svg"), auto;
-}
-.map_menu {
-  background-image: url("../images/карта.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 4.7vw;
-  width: 8.5vw;
-  z-index: 5;
-  margin-left: 1.5vw;
-  margin-right: 2vw;
-  cursor: url("../images/cursor/contacts.svg"), auto;
-}
-.hand_menu {
-  background-image: url("../images/рука.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 4.9vw;
-  width: 6vw;
-  z-index: 10;
-  transform: rotate(-90deg);
-  margin-left: 1.5vw;
-  margin-right: 2.7vw;
-  cursor: url("../images/cursor/o_nas.svg"), auto;
-}
-.sign_menu {
-  background-image: url("../images/знак.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 5.5vw;
-  width: 4vw;
-  z-index: 20;
-  margin-left: 1.5vw;
-  margin-right: 1.5vw;
-  cursor: url("../images/cursor/faq.svg"), auto;
-}
-.pugov_menu {
-  background-image: url("../images/пуговица.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 5.8vw;
-  width: 5.8vw;
-  z-index: 5;
-  margin-left: 1.5vw;
-  margin-right: 2.2vw;
-  cursor: url("../images/cursor/events.svg"), auto;
-}
-.kolon_menu {
-  background-image: url("../images/колонна.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 5.7vw;
-  width: 5vw;
-  z-index: 10;
-  margin-left: 1.5vw;
-  margin-right: 2.5vw;
-  cursor: url("../images/cursor/museum.svg"), auto;
-}
-.korzina_menu {
-  background-image: url("../images/корзина.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 6vw;
-  width: 8vw;
-  z-index: 400;
-  margin-left: 1.5vw;
-  margin-right: 1.5vw;
-  cursor: url("../images/cursor/store.svg"), auto;
-}
+  .logo {
+    background-image: url("../images/logo.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 5.5vw;
+    width: 7.7vw;
+    z-index: 610;
+  }
+  /* картинки меню */
+  .menu-items {
+    width: 68.4vw;
+    height: 8.33vw;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+  }
+    .chemodan_menu {
+      background-image: url("../images/чемодан.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 5.7vw;
+      width: 7.2vw;
+      z-index: 5;
+      margin-left: 1.5vw;
+      margin-right: 2.5vw;
+      cursor: url("../images/cursor/tour.svg"), auto;
+    }
+    .map_menu {
+      background-image: url("../images/карта.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 4.7vw;
+      width: 8.5vw;
+      z-index: 5;
+      margin-left: 1.5vw;
+      margin-right: 2vw;
+      cursor: url("../images/cursor/contacts.svg"), auto;
+    }
+    .hand_menu {
+      background-image: url("../images/рука.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 4.9vw;
+      width: 6vw;
+      z-index: 10;
+      transform: rotate(-90deg);
+      margin-left: 1.5vw;
+      margin-right: 2.7vw;
+      cursor: url("../images/cursor/o_nas.svg"), auto;
+    }
+    .sign_menu {
+      background-image: url("../images/знак.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 5.5vw;
+      width: 4vw;
+      z-index: 20;
+      margin-left: 1.5vw;
+      margin-right: 1.5vw;
+      cursor: url("../images/cursor/faq.svg"), auto;
+    }
+    .pugov_menu {
+      background-image: url("../images/пуговица.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 5.8vw;
+      width: 5.8vw;
+      z-index: 5;
+      margin-left: 1.5vw;
+      margin-right: 2.2vw;
+      cursor: url("../images/cursor/events.svg"), auto;
+    }
+    .kolon_menu {
+      background-image: url("../images/колонна.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 5.7vw;
+      width: 5vw;
+      z-index: 10;
+      margin-left: 1.5vw;
+      margin-right: 2.5vw;
+      cursor: url("../images/cursor/museum.svg"), auto;
+    }
+    .korzina_menu {
+      background-image: url("../images/корзина.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 6vw;
+      width: 8vw;
+      z-index: 400;
+      margin-left: 1.5vw;
+      margin-right: 1.5vw;
+      cursor: url("../images/cursor/store.svg"), auto;
+    }
+
+
+/* блок с рендером */
 .render_1 {
-  margin: 0;
-  width: 100vw;
-  height: 39.5vw;
-}
-.render1 {
   top: 0;
   left: 0;
   width: 100vw;
   height: 39.5vw;
-  background-image: url("../images/render1.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
+  position: relative;
 }
-.circle1 {
-  width: 1vw;
-  height: 1vw;
-  border-radius: 50%;
-  background-color: white;
-  position: absolute;
-  top: 18vw;
-  left: 5vw;
-}
-.circle2 {
-  width: 1vw;
-  height: 1vw;
-  border-radius: 50%;
-  background-color: white;
-  position: absolute;
-  top: 45vw;
-  left: 57vw;
-}
-.circle3 {
-  width: 1vw;
-  height: 1vw;
-  border-radius: 50%;
-  background-color: white;
-  position: absolute;
-  top: 23vw;
-  left: 87vw;
-}
+  /* изображение */
+  .render1 {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 39.5vw;
+    background-image: url("../images/render1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    /* блок1 */
+  .circle1 {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 11.5vw;
+    left: 4vw;
+  }
+  .rec1 {
+    position: absolute;
+    width: 10vw;
+    height: 3vw;
+    top: 8.7vw;
+    left: 4.8vw;
+    background-color: #0092FF;
+    display: none;
+  }
+  .render_1 p:nth-of-type(1) {
+    position: absolute;
+    width: 9.4vw;
+    top: 9.2vw;
+    left: 6.5vw;
+    font-family: "OktaNeue-Light";
+    font-size: 1.7vw;
+    color: white;
+    display: none;
+  }
+    /* блок2 */
+  .rec2 {
+    position: absolute;
+    width: 11.2vw;
+    height: 3vw;
+    top: 34vw;
+    left: 56.8vw;
+    background-color: #0092FF;
+    display: none;
+  }
+  .render_1 p:nth-of-type(2) {
+    position: absolute;
+    width: 11.1vw;
+    top: 34.4vw;
+    left: 58.2vw;
+    font-family: "OktaNeue-Light";
+    font-size: 1.7vw;
+    color: white;
+    display: none;
+  }
+  .circle2 {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 36.7vw;
+    left: 56vw;
+  }
+    /* блок3 */
+  .rec3 {
+    position: absolute;
+    width: 9.5vw;
+    height: 3vw;
+    top: 13.5vw;
+    left: 87.7vw;
+    background-color: #0092FF;
+    display: none;
+  }
+  .render_1 p:nth-of-type(3) {
+    position: absolute;
+    width: 9vw;
+    top: 13.9vw;
+    left: 89vw;
+    font-family: "OktaNeue-Light";
+    font-size: 1.7vw;
+    color: white;
+    display: none;
+  }
+  .circle3 {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 16.2vw;
+    left: 87vw;
+  }
+
+
+/* раздел1 */
 .block1 {
   margin: 0;
   border-bottom: 1px solid black;
@@ -161,36 +234,55 @@ header {
   align-items: flex-start;
   display: flex;
 }
-.open1 {
-  height: 52vw;
-}
-.zagolovok1 {
-  width: 52.4vw;
-  margin-top: 3vw;
-}
-.zagolovok1 > p {
-  font-family: "Radiotechnika";
-  font-size: 5vw;
-}
-.podpic1 {
-  width: 19vw;
-  margin-top: 5.5vw;
-}
-.podpic1 > p {
-  font-family: "OktaNeue-Regular";
-  font-size: 0.76vw;
-}
-.knopka1 {
-  width: 6.5vw;
-  height: 6.5vw;
-  background-image: url("../images/knopka1.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 2vw;
-}
+  .zagolovok1 {
+    width: 52.4vw;
+    margin-top: 3vw;
+  }
+  .zagolovok1 > p {
+    font-family: "Radiotechnika";
+    font-size: 5vw;
+  }
+  .podpic1 {
+    width: 19vw;
+    margin-top: 5.5vw;
+  }
+  .podpic1 > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 0.76vw;
+  }
+  .knopka1 {
+    width: 6.5vw;
+    height: 6.5vw;
+    background-image: url("../images/knopka1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2vw;
+  }
+  /* контен в открытом виде */
+  .open1 {
+    height: 36vw;
+    width: 100vw;
+  }
+  .hidden {
+    display: none;
+  }
+  .block1-t {
+    top: 60vw;
+    left: 4vw;
+    width: 52.64vw;
+    height: 24.3vw;
+    position: absolute;
+  }
+  .block1-t > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 1.8vw;
+    line-height: 2vw;
+  }
+
+/* раздел2 */
 .block2 {
   margin: 0;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
   width: 100vw;
   height: 10vw;
   flex-direction: row;
@@ -198,36 +290,95 @@ header {
   align-items: flex-start;
   display: flex;
 }
-.open2 {
-  height: 50.7vw;
-}
-.zagolovok2 {
-  width: 52.4vw;
-  margin-top: 3vw;
-}
-.zagolovok2 > p {
-  font-family: "Radiotechnika";
-  font-size: 5vw;
-}
-.podpic2 {
-  width: 19vw;
-  margin-top: 6vw;
-}
-.podpic2 > p {
-  font-family: "OktaNeue-Regular";
-  font-size: 0.76vw;
-}
-.knopka2 {
-  width: 6.5vw;
-  height: 6.5vw;
-  background-image: url("../images/knopka1.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 2vw;
-}
+  .zagolovok2 {
+    width: 52.4vw;
+    margin-top: 3vw;
+  }
+  .zagolovok2 > p {
+    font-family: "Radiotechnika";
+    font-size: 5vw;
+  }
+  .podpic2 {
+    width: 19vw;
+    margin-top: 6.5vw;
+  }
+  .podpic2 > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 0.76vw;
+  }
+  .knopka2 {
+    width: 6.5vw;
+    height: 6.5vw;
+    background-image: url("../images/knopka1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2vw;
+  }
+  /* контен в открытом виде */
+  .open2 {
+    height: 37vw;
+    position: relative;
+  }
+  .cont {
+    position: absolute;
+    width: 76vw;
+    height: 25vw;
+    top: 12vw;
+    left: 4vw;
+  }
+  .block2-content {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+  }
+    .dots {
+      width: 1vw;
+      height: 16vw;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      display: flex;
+    }
+      .dot1 {background: black; width: 1vw; height: 1vw; border-radius: 50%;}
+      .dot2 {background: black; width: 1vw; height: 1vw; border-radius: 50%;}
+      .dot3 {background: black; width: 1vw; height: 1vw; border-radius: 50%;}
+      .dot4 {background: black; width: 1vw; height: 1vw; border-radius: 50%;}
+      .dot5 {background: black; width: 1vw; height: 1vw; border-radius: 50%;}
+    .bl-text {
+      width: 23.75vw;
+      height: 16vw;
+      margin-left: -31vw;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      display: flex;
+    }
+      .bl-text p:nth-of-type(1) {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+      .bl-text p:nth-of-type(2) {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+      .bl-text p:nth-of-type(3) {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+      .bl-text p:nth-of-type(4) {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+      .bl-text p:nth-of-type(5) {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+    .text-hover {
+
+      width: 16.5vw;
+      height: 16vw;
+      margin-left: 1vw;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: flex-start;
+      display: flex;
+    }
+      .text-hover p:nth-of-type(1) {font-family: "OktaNeue-Regular"; font-size: 0.76vw; opacity: 0;}
+      .text-hover p:nth-of-type(2) {font-family: "OktaNeue-Regular"; font-size: 0.76vw; opacity: 0;}
+      .text-hover p:nth-of-type(3) {font-family: "OktaNeue-Regular"; font-size: 0.76vw; opacity: 0;}
+      .text-hover p:nth-of-type(4) {font-family: "OktaNeue-Regular"; font-size: 0.76vw; opacity: 0;}
+      .text-hover p:nth-of-type(5) {font-family: "OktaNeue-Regular"; font-size: 0.76vw; opacity: 0;}
+
+
+/* раздел3 */
 .block3 {
   margin: 0;
-  border-top: 1px solid black;
   width: 100vw;
   height: 10vw;
   flex-direction: row;
@@ -235,41 +386,142 @@ header {
   align-items: flex-start;
   display: flex;
 }
-.open3 {
-  height: 68.75vw;
+  .zagolovok3 {
+    width: 52.4vw;
+    margin-top: 3vw;
+  }
+  .zagolovok3 > p {
+    font-family: "Radiotechnika";
+    font-size: 5vw;
+  }
+  .podpic3 {
+    width: 19vw;
+    margin-top: 6.5vw;
+  }
+  .podpic3 > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 0.76vw;
+  }
+  .knopka3 {
+    width: 6.5vw;
+    height: 6.5vw;
+    background-image: url("../images/knopka1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2vw;
+  }
+  /* контен в открытом виде */
+  .open3 {
+    height: 68.75vw;
+    position: relative;
+  }
+  .cont3 {
+    position: absolute;
+    width: 300vw;
+    height: 48vw;
+    top: 8vw;
+    left: 4vw;
 }
-.zagolovok3 {
-  width: 52.4vw;
-  margin-top: 3vw;
+  }
+  .block3-content {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    display: flex;
+  }
+  .bl3-img {
+    width: 300vw;
+    height: 48vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  }
+  .bl-img1 {
+    width: 33vw;
+    height: 46.5vw;
+    background-image: url("../images/img1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bl-img2 {
+    width: 31.3vw;
+    height: 16.7vw;
+    background-image: url("../images/img2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.zagolovok3 > p {
-  font-family: "Radiotechnika";
-  font-size: 5vw;
+  .bl-img3 {
+    width: 34.1vw;
+    height: 43.2vw;
+    background-image: url("../images/img3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.podpic3 {
-  width: 19vw;
-  margin-top: 6vw;
+  .bl-img4 {
+    width: 17.5vw;
+    height: 17.5vw;
+    background-image: url("../images/img4.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.podpic3 > p {
-  font-family: "OktaNeue-Regular";
-  font-size: 0.76vw;
+  .bl-img5 {
+    width: 34.5vw;
+    height: 27.4vw;
+    background-image: url("../images/img5.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.knopka3 {
-  width: 6.5vw;
-  height: 6.5vw;
-  background-image: url("../images/knopka1.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 2vw;
+  .bl-img6 {
+    width: 17.5vw;
+    height: 17.5vw;
+    background-image: url("../images/img6.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.knopka4 {
-  width: 6.5vw;
-  height: 6.5vw;
-  background-image: url("../images/knopka2.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-top: 2vw;
+  .bl-img7 {
+    width: 26vw;
+    height: 37.1vw;
+    background-image: url("../images/img7.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+  .bl-img8 {
+    width: 28.6vw;
+    height: 20.7vw;
+    background-image: url("../images/img8.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  .bl3-t {
+    width: 300vw;
+    height: 4vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+  }
+  .bl-t1 {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+  .bl-t2 {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+  .bl-t3 {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+  .bl-t4 {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+  .bl-t5 {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+  .bl-t6 {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+  .bl-t7 {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+  .bl-t8 {font-family: "OktaNeue-Regular"; font-size: 1.8vw;}
+
+  /* кнопка-крест */
+  .knopka4 {
+    width: 6.5vw;
+    height: 6.5vw;
+    background-image: url("../images/knopka2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2vw;
+  }
+
+
+/* блок с анимацией */
 .animation_1 {
   margin: 0;
   width: 100vw;
@@ -280,6 +532,9 @@ header {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+
+/* футер */
 footer {
   margin: 0;
   background-color: black;
@@ -290,47 +545,50 @@ footer {
   align-items: center;
   display: flex;
 }
-.logos {
-  width: 10.27vw;
-  height: 1.75vw;
-  background-image: url("../images/logos.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin-left: 4vw;
-}
-.text1 {
-  width: 11vw;
-  margin-left: -16vw;
-  margin-right: 20vw;
-}
-.text1 > p {
-  font-family: "OktaNeue-Regular";
-  font-size: 0.76vw;
-  line-height: 1vw;
-  color: white;
-}
-.text2 {
-  width: 13.7vw;
-  margin-left: 1vw;
-}
-.text2 > p {
-  font-family: "OktaNeue-Regular";
-  font-size: 0.76vw;
-  line-height: 1vw;
-  color: white;
-}
-.text3 {
-  width: 2.22vw;
-  margin-right: 4vw;
-  margin-bottom: -1vw;
-}
-.text3 > p {
-  font-family: "OktaNeue-Regular";
-  font-size: 0.76vw;
-  line-height: 1vw;
-  color: white;
-}
-.mini_velikan {
+  .logos {
+    width: 10.27vw;
+    height: 1.75vw;
+    background-image: url("../images/logos.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 4vw;
+  }
+  .text1 {
+    width: 11vw;
+    margin-left: -16vw;
+    margin-right: 20vw;
+  }
+  .text1 > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 0.76vw;
+    line-height: 1vw;
+    color: white;
+  }
+  .text2 {
+    width: 13.7vw;
+    margin-left: 1vw;
+  }
+  .text2 > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 0.76vw;
+    line-height: 1vw;
+    color: white;
+  }
+  .text3 {
+    width: 2.22vw;
+    margin-right: 4vw;
+    margin-bottom: -1vw;
+  }
+  .text3 > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 0.76vw;
+    line-height: 1vw;
+    color: white;
+  }
+
+
+/* мини великан */
+/* .mini_velikan {
   bottom: 0;
   left: 0;
   position: fixed;
@@ -338,13 +596,13 @@ footer {
   height: 2vw;
   border-bottom: 1px solid black;
 }
-.velikan {
-  width: 4.1vw;
-  height: 2vw;
-  top: 0vw;
-  left: 2vw;
-  background-image: url("../images/Subtract.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: absolute;
-}
+  .velikan {
+    width: 4.1vw;
+    height: 2vw;
+    top: 0vw;
+    left: 2vw;
+    background-image: url("../images/Subtract.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  } */
