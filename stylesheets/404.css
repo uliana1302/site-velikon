@@ -1,0 +1,82 @@
+.error {
+  top: 0;
+  left: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  cursor: url("../images/cursor/error.svg"), auto;
+}
+.o-404-menu {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 8.33vw;
+  background-color: black;
+  position: absolute;
+}
+.o-404-logo {
+  top: 1.55vw;
+  left: 0vw;
+  background-image: url("../images/logo.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 5.5vw;
+  width: 7.7vw;
+  position: absolute;
+  cursor: url("../images/cursor/main.svg"), auto;
+}
+.o-404-zag {
+  width: 54.7vw;
+  top: 32.5vw;
+  left: 2.8vw;
+  position: absolute;
+}
+.o-404-zag > p {
+  font-family: "Radiotechnika";
+  font-size: 5vw;
+  position: absolute;
+}
+/* .o-404-podpic {
+  width: 14.7vw;
+  top: 27.5vw;
+  left: 4.2vw;
+  position: absolute;
+}
+.o-404-podpic > p {
+  font-family: "OktaNeue-Regular";
+  font-size: 0.76vw;
+  position: absolute;
+}
+.o-404-kolon {
+  background-image: url("../images/колонна.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 36.5vw;
+  width: 34.7vw;
+  top: 28vw;
+  left: 3.4vw;
+  position: absolute;
+}
+.o-404-korz {
+  background-image: url("../images/корзина.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 23.5vw;
+  width: 38vw;
+  top: 42vw;
+  left: 34vw;
+  position: absolute;
+} */
+.o-404-ruka {
+  background-image: url("../images/знак.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: rotate(90deg);
+  height: 100vw;
+  width: 39vw;
+  top: -9vw;
+  left: 27vw;
+  position: absolute;
+}
