@@ -9,6 +9,8 @@
 @import 'contacts.css';
 /* 404 */
 @import '404.css';
+/* faq */
+@import 'faq.css';
 /* адаптивность */
 @import 'responsive.css';
 
