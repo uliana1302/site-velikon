@@ -58,7 +58,17 @@ $(function () {
    $(".rec7-6").css("display", "block");
    $(".render_7 p:nth-of-type(6)").css("display", "block");
  });
-
+ // faq
+ $(".circle6").click(function(){
+   $(this).css("background-color", "#0092FF");
+   $(".rec6").css("display", "block");
+   $(".render_6 p:nth-of-type(1)").css("display", "block");
+ });
+ $(".circle6-2").click(function(){
+   $(this).css("background-color", "#0092FF");
+   $(".rec6-2").css("display", "block");
+   $(".render_6 p:nth-of-type(2)").css("display", "block");
+ });
 
  // скролл и открытие разделов
  // о нас
@@ -104,6 +114,23 @@ $(function () {
    $(".block7-1").addClass("open7-1");
    $(".contacts").removeClass("hidden");
  });
+ // FAQ
+ $(".render_6 p:nth-of-type(1)").click(function(){
+   $("html, body").animate( {
+     scrollTop: $(".block6-1").offset().top
+   }, 1000);
+   $(".knopka6-1").addClass("knopka4");
+   $(".block6-1").addClass("open6-1");
+   $(".block6-1-content").removeClass("hidden");
+ });
+ $(".render_6 p:nth-of-type(2)").click(function(){
+   $("html, body").animate( {
+     scrollTop: $(".block6-2").offset().top
+   }, 1500);
+   $(".knopka6-2").addClass("knopka4");
+   $(".block6-2").addClass("open6-2");
+   $(".form").removeClass("hidden");
+ });
 
 
  // открытие разделов по клику на кнопку
@@ -135,8 +162,20 @@ $(function () {
     $(".block7-1").toggleClass("open7-1");
     $(".contacts").toggleClass("hidden");
   });
+  // FAQ
+  $(".knopka6-1").click(function(){
+    $(this).toggleClass("knopka4");
+    $(".block6-1").toggleClass("open6-1");
+    $(".block6-1-content").toggleClass("hidden");
+  });
+  $(".knopka6-2").click(function(){
+    $(this).toggleClass("knopka4");
+    $(".block6-2").toggleClass("open6-2");
+    $(".form").toggleClass("hidden");
+  });
 
 // текст при наведении_появление
+// о нас
 $(".bl-text p:nth-of-type(1)").hover(function() {
   $(".text-hover p:nth-of-type(1)").css("opacity", "1");
 });
@@ -152,8 +191,29 @@ $(".bl-text p:nth-of-type(4)").hover(function() {
 $(".bl-text p:nth-of-type(5)").hover(function() {
  $(".text-hover p:nth-of-type(5)").css("opacity", "1");
 });
+// faq
+$(".bl-text-6 p:nth-of-type(1)").hover(function() {
+  $(".text-hover-6 p:nth-of-type(1)").css("opacity", "1");
+});
+$(".bl-text-6 p:nth-of-type(2)").hover(function() {
+ $(".text-hover-6 p:nth-of-type(2)").css("opacity", "1");
+});
+$(".bl-text-6 p:nth-of-type(3)").hover(function() {
+ $(".text-hover-6 p:nth-of-type(3)").css("opacity", "1");
+});
+$(".bl-text-6 p:nth-of-type(4)").hover(function() {
+ $(".text-hover-6 p:nth-of-type(4)").css("opacity", "1");
+});
+$(".bl-text-6 p:nth-of-type(5)").hover(function() {
+ $(".text-hover-6 p:nth-of-type(5)").css("opacity", "1");
+});
+$(".bl-text-6 p:nth-of-type(6)").hover(function() {
+ $(".text-hover-6 p:nth-of-type(6)").css("opacity", "1");
+});
+
 
 // текст при наведении_исчезновение
+// о нас
 $(".bl-text p:nth-of-type(1)").mouseleave(function() {
  $(".text-hover p:nth-of-type(1)").css("opacity", "0");
 });
@@ -169,7 +229,43 @@ $(".text-hover p:nth-of-type(4)").css("opacity", "0");
 $(".bl-text p:nth-of-type(5)").mouseleave(function() {
 $(".text-hover p:nth-of-type(5)").css("opacity", "0");
 });
+// faq
+$(".bl-text-6 p:nth-of-type(1)").mouseleave(function() {
+  $(".text-hover-6 p:nth-of-type(1)").css("opacity", "0");
+});
+$(".bl-text-6 p:nth-of-type(2)").mouseleave(function() {
+ $(".text-hover-6 p:nth-of-type(2)").css("opacity", "0");
+});
+$(".bl-text-6 p:nth-of-type(3)").mouseleave(function() {
+ $(".text-hover-6 p:nth-of-type(3)").css("opacity", "0");
+});
+$(".bl-text-6 p:nth-of-type(4)").mouseleave(function() {
+ $(".text-hover-6 p:nth-of-type(4)").css("opacity", "0");
+});
+$(".bl-text-6 p:nth-of-type(5)").mouseleave(function() {
+ $(".text-hover-6 p:nth-of-type(5)").css("opacity", "0");
+});
+$(".bl-text-6 p:nth-of-type(6)").mouseleave(function() {
+ $(".text-hover-6 p:nth-of-type(6)").css("opacity", "0");
+});
 
+
+// радиокнопка
+$(".form-dot1").click(function(){
+  $(this).toggleClass("form-dot-4");
+  // $(".form-dot2").addClass("form-dot-5");
+  // $(".form-dot3").addClass("form-dot-5");
+});
+$(".form-dot2").click(function(){
+  $(this).toggleClass("form-dot-4");
+  // $(".form-dot1").addClass("form-dot-5");
+  // $(".form-dot3").addClass("form-dot-5");
+});
+$(".form-dot3").click(function(){
+  $(this).toggleClass("form-dot-4");
+  // $(".form-dot1").addClass("form-dot-5");
+  // $(".form-dot2").addClass("form-dot-5");
+});
 
 // горизонтальный скролл
 // $("cont3").addEvent('mouseover', scroll.start.bind(scroll));
