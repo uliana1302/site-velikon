@@ -1,0 +1,776 @@
+/* блок с рендером */
+.render_3 {
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 39.5vw;
+  position: relative;
+}
+  /* изображение */
+  .render3 {
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 39.5vw;
+    background-image: url("../images/museum-render.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+    /* блок1 */
+  .circle3-1 {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 11vw;
+    left: 16vw;
+  }
+  .circle3-1:hover {
+    background-color: #0092FF;
+  }
+  .rec3-1 {
+    position: absolute;
+    width: 10.5vw;
+    height: 3vw;
+    top: 8.5vw;
+    left: 16.8vw;
+    background-color: #0092FF;
+    display: none;
+  }
+  .render_3 p:nth-of-type(1) {
+    position: absolute;
+    width: 9.4vw;
+    top: 8.9vw;
+    left: 18.2vw;
+    font-family: "OktaNeue-Light";
+    font-size: 1.7vw;
+    color: white;
+    display: none;
+  }
+    /* блок2 */
+  .rec3-2 {
+    position: absolute;
+    width: 15.1vw;
+    height: 3vw;
+    top: 33.3vw;
+    left: 33.8vw;
+    background-color: #0092FF;
+    display: none;
+  }
+  .circle3-2 {
+    width: 1vw;
+    height: 1vw;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    top: 36vw;
+    left: 33vw;
+  }
+  .circle3-2:hover {
+    background-color: #0092FF;
+  }
+  .render_3 p:nth-of-type(2) {
+    position: absolute;
+    width: 12.1vw;
+    top: 33.75vw;
+    left: 35.7vw;
+    font-family: "OktaNeue-Light";
+    font-size: 1.7vw;
+    color: white;
+    display: none;
+  }
+  /* блок3 */
+.rec3-3 {
+  position: absolute;
+  width: 7.1vw;
+  height: 3vw;
+  top: 9.3vw;
+  left: 60.8vw;
+  background-color: #0092FF;
+  display: none;
+}
+.circle3-3 {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 12vw;
+  left: 60vw;
+}
+.circle3-3:hover {
+  background-color: #0092FF;
+}
+.render_3 p:nth-of-type(3) {
+  position: absolute;
+  width: 12.1vw;
+  top: 9.7vw;
+  left: 62.1vw;
+  font-family: "OktaNeue-Light";
+  font-size: 1.7vw;
+  color: white;
+  display: none;
+}
+/* блок4 */
+.rec3-4 {
+  position: absolute;
+  width: 10.5vw;
+  height: 3vw;
+  top: 21.3vw;
+  left: 77.8vw;
+  background-color: #0092FF;
+  display: none;
+}
+.circle3-4 {
+  width: 1vw;
+  height: 1vw;
+  border-radius: 50%;
+  background-color: white;
+  position: absolute;
+  top: 24vw;
+  left: 77vw;
+}
+.circle3-4:hover {
+  background-color: #0092FF;
+}
+.render_3 p:nth-of-type(4) {
+  position: absolute;
+  width: 12.1vw;
+  top: 21.7vw;
+  left: 79.1vw;
+  font-family: "OktaNeue-Light";
+  font-size: 1.7vw;
+  color: white;
+  display: none;
+}
+
+
+/* раздел1 */
+.block3-1 {
+  margin: 0;
+  border-bottom: 1px solid black;
+  width: 100vw;
+  height: 10vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+}
+  .zagolovok3-1 {
+    width: 52.4vw;
+    margin-top: 3vw;
+  }
+  .zagolovok3-1 > p {
+    font-family: "Radiotechnika";
+    font-size: 5vw;
+  }
+  .podpic3-1 {
+    width: 19vw;
+    margin-top: 5.5vw;
+  }
+  .podpic3-1 > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 0.76vw;
+  }
+  .knopka3-1 {
+    width: 6.6vw;
+    height: 6.6vw;
+    background-image: url("../images/knopka1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2vw;
+  }
+  /* контен в открытом виде */
+  .open3-1 {
+    height: 97vw;
+  }
+  .hidden {
+    display: none;
+  }
+  .block3-1-content {
+    top: 60vw;
+    left: 0;
+    width: 100vw;
+    height: 84vw;
+    position: absolute;
+  }
+  .bl-3-1-img {
+    top: 8vw;
+    left: 0;
+    width: 100vw;
+    height: 48vw;
+    background-image: url("../images/kniga-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bl-3-1-knopka1 {
+    width: 6.6vw;
+    height: 6.6vw;
+    top: 21vw;
+    left: 4vw;
+    transform: rotate(-180deg);
+    background-image: url("../images/knopka1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  }
+  .bl-3-1-knopka2 {
+    width: 6.6vw;
+    height: 6.6vw;
+    top: 21vw;
+    right: 4vw;
+    background-image: url("../images/knopka1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  }
+  .bl-3-1-dots {
+    top: 49.5vw;
+    left: 48vw;
+    width: 4.5vw;
+    height: 0.8vw;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  .dot-3-1-1 {
+    width: 0.8vw;
+    height: 0.8vw;
+    border-radius: 50%;
+    background: black;
+  }
+  .dot-3-1-2 {
+    width: 0.8vw;
+    height: 0.8vw;
+    border-radius: 50%;
+    background: black;
+  }
+  .dot-3-1-3 {
+    width: 0.8vw;
+    height: 0.8vw;
+    border-radius: 50%;
+    background: black;
+  }
+  .bl-3-1-text {
+    top: 56vw;
+    left: 4vw;
+    width: 52.64vw;
+    height: 24.3vw;
+    position: absolute;
+  }
+  .bl-3-1-text > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 1.8vw;
+    line-height: 2.3vw;
+  }
+  .bl-3-1-t-m {
+    top: 66.4vw;
+    left: 64vw;
+    width: 13vw;
+    height: 1.9vw;
+    position: absolute;
+  }
+  .bl-3-1-t-m > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 0.76vw;
+  }
+  .bl-3-1-obj-1 {
+    width: 20.4vw;
+    height: 7.2vw;
+    top: 57.5vw;
+    left: 34vw;
+    background-image: url("../images/kniga1-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: none;
+  }
+  .bl-3-1-obj-2 {
+    width: 10.3vw;
+    height: 10.3vw;
+    top: 67vw;
+    left: 19vw;
+    background-image: url("../images/kniga1-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: none;
+  }
+
+/* раздел2 */
+.block3-2 {
+  margin: 0;
+  border-bottom: 1px solid black;
+  width: 100vw;
+  height: 10vw;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  display: flex;
+}
+.zagolovok3-2 {
+  width: 52.4vw;
+  margin-top: 3vw;
+}
+.zagolovok3-2 > p {
+  font-family: "Radiotechnika";
+  font-size: 5vw;
+}
+  .podpic3-2 {
+    width: 19vw;
+    margin-top: 5.9vw;
+  }
+  .podpic3-2 > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 0.76vw;
+  }
+  .knopka3-2 {
+    width: 6.6vw;
+    height: 6.6vw;
+    background-image: url("../images/knopka1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2vw;
+  }
+  /* контент в открытом виде */
+  .open3-2 {
+    height: 91vw;
+    position: relative;
+  }
+  .block3-2-content {
+    top: 10vw;
+    left: 0;
+    width: 100vw;
+    height: 80vw;
+    position: absolute;
+  }
+  .bl-3-2-img {
+    top: 8vw;
+    left: 0;
+    width: 100vw;
+    height: 48vw;
+    background-image: url("../images/kniga-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .bl-3-2-knopka1 {
+    width: 6.6vw;
+    height: 6.6vw;
+    top: 21vw;
+    left: 4vw;
+    transform: rotate(-180deg);
+    background-image: url("../images/knopka1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  }
+  .bl-3-2-knopka2 {
+    width: 6.6vw;
+    height: 6.6vw;
+    top: 21vw;
+    right: 4vw;
+    background-image: url("../images/knopka1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+  }
+  .bl-3-2-dots {
+    top: 49.5vw;
+    left: 48vw;
+    width: 4.5vw;
+    height: 0.8vw;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+  }
+  .dot-3-2-1 {
+    width: 0.8vw;
+    height: 0.8vw;
+    border-radius: 50%;
+    background: black;
+  }
+  .dot-3-2-2 {
+    width: 0.8vw;
+    height: 0.8vw;
+    border-radius: 50%;
+    background: black;
+  }
+  .dot-3-2-3 {
+    width: 0.8vw;
+    height: 0.8vw;
+    border-radius: 50%;
+    background: black;
+  }
+  .bl-3-2-text {
+    top: 56vw;
+    left: 4vw;
+    width: 52.64vw;
+    height: 24.3vw;
+    position: absolute;
+  }
+  .bl-3-2-text > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 1.8vw;
+    line-height: 2.3vw;
+  }
+  .bl-3-2-t-m {
+    top: 66.4vw;
+    left: 64vw;
+    width: 13vw;
+    height: 1.9vw;
+    position: absolute;
+  }
+  .bl-3-2-t-m > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 0.76vw;
+  }
+  .bl-3-2-obj-1 {
+    width: 32.4vw;
+    height: 32.2vw;
+    top: 44.5vw;
+    left: 30vw;
+    background-image: url("../images/kniga-2-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: none;
+  }
+  .bl-3-2-obj-2 {
+    width: 10.3vw;
+    height: 7.4vw;
+    top: 66vw;
+    left: 15vw;
+    background-image: url("../images/kniga-2-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: none;
+  }
+
+
+  /* раздел3 */
+  .block3-3 {
+    margin: 0;
+    border-bottom: 1px solid black;
+    width: 100vw;
+    height: 10vw;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    display: flex;
+  }
+    .zagolovok3-3 {
+      width: 52.4vw;
+      margin-top: 3vw;
+    }
+    .zagolovok3-3 > p {
+      font-family: "Radiotechnika";
+      font-size: 5vw;
+    }
+    .podpic3-3 {
+      width: 19vw;
+      margin-top: 5.5vw;
+    }
+    .podpic3-3 > p {
+      font-family: "OktaNeue-Regular";
+      font-size: 0.76vw;
+    }
+    .knopka3-3 {
+      width: 6.6vw;
+      height: 6.6vw;
+      background-image: url("../images/knopka1.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-top: 2vw;
+    }
+    /* контен в открытом виде */
+    .open3-3 {
+      height: 91vw;
+      position: relative;
+    }
+    .hidden {
+      display: none;
+    }
+    .block3-3-content {
+      top: 10vw;
+      left: 0;
+      width: 100vw;
+      height: 81vw;
+      position: absolute;
+    }
+    .bl-3-3-img {
+      top: 8vw;
+      left: 0;
+      width: 100vw;
+      height: 48vw;
+      background-image: url("../images/kniga-3.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .bl-3-3-knopka1 {
+      width: 6.6vw;
+      height: 6.6vw;
+      top: 21vw;
+      left: 4vw;
+      transform: rotate(-180deg);
+      background-image: url("../images/knopka1.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+    }
+    .bl-3-3-knopka2 {
+      width: 6.6vw;
+      height: 6.6vw;
+      top: 21vw;
+      right: 4vw;
+      background-image: url("../images/knopka1.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+    }
+    .bl-3-3-dots {
+      top: 49.5vw;
+      left: 48vw;
+      width: 4.5vw;
+      height: 0.8vw;
+      position: absolute;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      display: flex;
+    }
+    .dot-3-3-1 {
+      width: 0.8vw;
+      height: 0.8vw;
+      border-radius: 50%;
+      background: black;
+    }
+    .dot-3-3-2 {
+      width: 0.8vw;
+      height: 0.8vw;
+      border-radius: 50%;
+      background: black;
+    }
+    .dot-3-3-3 {
+      width: 0.8vw;
+      height: 0.8vw;
+      border-radius: 50%;
+      background: black;
+    }
+    .bl-3-3-text {
+      top: 56vw;
+      left: 4vw;
+      width: 52.64vw;
+      height: 24.3vw;
+      position: absolute;
+    }
+    .bl-3-3-text > p {
+      font-family: "OktaNeue-Regular";
+      font-size: 1.8vw;
+      line-height: 2.3vw;
+    }
+    .bl-3-3-t-m {
+      top: 68.8vw;
+      left: 64vw;
+      width: 13vw;
+      height: 1.9vw;
+      position: absolute;
+    }
+    .bl-3-3-t-m > p {
+      font-family: "OktaNeue-Regular";
+      font-size: 0.76vw;
+    }
+    .bl-3-3-obj-1 {
+      width: 13.4vw;
+      height: 10.2vw;
+      top: 53.5vw;
+      left: 37vw;
+      background-image: url("../images/kniga-3-1.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      display: none;
+    }
+    .bl-3-3-obj-2 {
+      width: 30.3vw;
+      height: 24.4vw;
+      top: 53vw;
+      left: 15vw;
+      background-image: url("../images/kniga-3-2.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      position: absolute;
+      display: none;
+    }
+
+    /* раздел4 */
+    .block3-4 {
+      margin: 0;
+      border-bottom: 1px solid black;
+      width: 100vw;
+      height: 10vw;
+      flex-direction: row;
+      justify-content: space-around;
+      align-items: flex-start;
+      display: flex;
+    }
+    .zagolovok3-4 {
+      width: 52.4vw;
+      margin-top: 3vw;
+    }
+    .zagolovok3-4 > p {
+      font-family: "Radiotechnika";
+      font-size: 5vw;
+    }
+      .podpic3-4 {
+        width: 19vw;
+        margin-top: 5.5vw;
+      }
+      .podpic3-4 > p {
+        font-family: "OktaNeue-Regular";
+        font-size: 0.76vw;
+      }
+      .knopka3-4 {
+        width: 6.6vw;
+        height: 6.6vw;
+        background-image: url("../images/knopka1.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 2vw;
+      }
+      /* контен в открытом виде */
+      .open3-4 {
+        height: 89vw;
+        position: relative;
+      }
+      .hidden {
+        display: none;
+      }
+      .block3-4-content {
+        top: 10vw;
+        left: 0;
+        width: 100vw;
+        height: 81vw;
+        position: absolute;
+      }
+      .bl-3-4-img {
+        top: 8vw;
+        left: 0;
+        width: 100vw;
+        height: 48vw;
+        background-image: url("../images/kniga-4.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+      .bl-3-4-knopka1 {
+        width: 6.6vw;
+        height: 6.6vw;
+        top: 21vw;
+        left: 4vw;
+        transform: rotate(-180deg);
+        background-image: url("../images/knopka1.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+      }
+      .bl-3-4-knopka2 {
+        width: 6.6vw;
+        height: 6.6vw;
+        top: 21vw;
+        right: 4vw;
+        background-image: url("../images/knopka1.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+      }
+      .bl-3-4-dots {
+        top: 49.5vw;
+        left: 48vw;
+        width: 4.5vw;
+        height: 0.8vw;
+        position: absolute;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+      }
+      .dot-3-4-1 {
+        width: 0.8vw;
+        height: 0.8vw;
+        border-radius: 50%;
+        background: black;
+      }
+      .dot-3-4-2 {
+        width: 0.8vw;
+        height: 0.8vw;
+        border-radius: 50%;
+        background: black;
+      }
+      .dot-3-4-3 {
+        width: 0.8vw;
+        height: 0.8vw;
+        border-radius: 50%;
+        background: black;
+      }
+      .bl-3-4-text {
+        top: 56vw;
+        left: 4vw;
+        width: 52.64vw;
+        height: 24.3vw;
+        position: absolute;
+      }
+      .bl-3-4-text > p {
+        font-family: "OktaNeue-Regular";
+        font-size: 1.8vw;
+        line-height: 2.3vw;
+      }
+      .bl-3-4-t-m {
+        top: 59.4vw;
+        left: 64vw;
+        width: 13vw;
+        height: 1.9vw;
+        position: absolute;
+      }
+      .bl-3-4-t-m > p {
+        font-family: "OktaNeue-Regular";
+        font-size: 0.76vw;
+      }
+      .bl-3-4-obj-1 {
+        width: 5.5vw;
+        height: 5.5vw;
+        top: 58.5vw;
+        left: 10vw;
+        background-image: url("../images/kniga-4-1.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        display: none;
+      }
+      .bl-3-4-obj-2 {
+        width: 12.3vw;
+        height: 16.4vw;
+        top: 61vw;
+        left: 22vw;
+        background-image: url("../images/kniga-4-2.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+        display: none;
+      }
+
+
+
+  /* кнопка-крест */
+  .knopka4 {
+    width: 6.6vw;
+    height: 6.6vw;
+    background-image: url("../images/knopka2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 2vw;
+  }
