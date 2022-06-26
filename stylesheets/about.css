@@ -261,8 +261,8 @@ header {
     font-size: 0.76vw;
   }
   .knopka1 {
-    width: 6.5vw;
-    height: 6.5vw;
+    width: 6.6vw;
+    height: 6.6vw;
     background-image: url("../images/knopka1.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -317,8 +317,8 @@ header {
     font-size: 0.76vw;
   }
   .knopka2 {
-    width: 6.5vw;
-    height: 6.5vw;
+    width: 6.6vw;
+    height: 6.6vw;
     background-image: url("../images/knopka1.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -412,8 +412,8 @@ header {
     font-size: 0.76vw;
   }
   .knopka3 {
-    width: 6.5vw;
-    height: 6.5vw;
+    width: 6.6vw;
+    height: 6.6vw;
     background-image: url("../images/knopka1.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -544,8 +544,8 @@ header {
 
   /* кнопка-крест */
   .knopka4 {
-    width: 6.5vw;
-    height: 6.5vw;
+    width: 6.6vw;
+    height: 6.6vw;
     background-image: url("../images/knopka2.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -622,24 +622,3 @@ footer {
     line-height: 1vw;
     color: white;
   }
-
-
-/* мини великан */
-/* .mini_velikan {
-  bottom: 0;
-  left: 0;
-  position: fixed;
-  width: 100vw;
-  height: 2vw;
-  border-bottom: 1px solid black;
-}
-  .velikan {
-    width: 4.1vw;
-    height: 2vw;
-    top: 0vw;
-    left: 2vw;
-    background-image: url("../images/Subtract.svg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: absolute;
-  } */
