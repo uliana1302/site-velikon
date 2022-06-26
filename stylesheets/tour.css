@@ -90,8 +90,8 @@
     font-size: 0.76vw;
   }
   .knopka2-1 {
-    width: 6.5vw;
-    height: 6.5vw;
+    width: 6.6vw;
+    height: 6.6vw;
     background-image: url("../images/knopka1.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,7 +99,7 @@
   }
   /* контен в открытом виде */
   .open2-1 {
-    height: 94vw;
+    height: 73vw;
     width: 100vw;
   }
   .hidden {
@@ -111,26 +111,28 @@
     left: 0vw;
   }
   .img-block2 {
+    position: absolute;
+    border-bottom: 1px solid black;
     width: 100vw;
-    height: 62.4vw;
-    background-image: url("../images/render-tour.svg");
+    height: 40vw;
+    background-image: url("../images/1920x1080 (full hd).png");
     background-repeat: no-repeat;
     background-size: cover;
-    top: 2vw;
+    top: 14vw;
     left: 0vw;
   }
   .knopka2-2 {
-    width: 6.5vw;
-    height: 6.5vw;
-    background-image: url("../images/knopka-tour.svg");
+    width: 6.6vw;
+    height: 6.6vw;
+    background-image: url("../images/Group 41.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    top: 26vw;
-    left: 47vw;
+    top: 33vw;
+    left: 51.5vw;
     position: absolute;
   }
   .block2-1-t {
-    top: 67vw;
+    top: 3vw;
     left: 4vw;
     width: 52.64vw;
     height: 24.3vw;
@@ -141,12 +143,65 @@
     font-size: 1.8vw;
     line-height: 2vw;
   }
+  .animation_2 {
+    margin: 0;
+    width: 100vw;
+    height: 39.5vw;
+    top: 0;
+    left: 0;
+    background: black;
+    position: relative;
+  }
+  .ruka-c1 {
+    position: absolute;
+    top: 4vw;
+    left: 0.5vw;
+    width: 32vw;
+    height: 32vw;
+    background-image: url("../images/Vector-circ.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation: ruka-anim1 1s linear infinite;
+  }
+  @keyframes ruka-anim1 {
+    0% {transform: rotate(360deg);}
+  }
+  .ruka-c2 {
+    position: absolute;
+    top: 4vw;
+    left: 33.8vw;
+    width: 32vw;
+    height: 32vw;
+    background-image: url("../images/Vector-circ.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(45deg);
+    animation: ruka-anim2 1s linear infinite;
+  }
+  @keyframes ruka-anim2 {
+    0% {transform: rotate(405deg);}
+  }
+  .ruka-c3 {
+    position: absolute;
+    top: 4vw;
+    left: 67vw;
+    width: 32vw;
+    height: 32vw;
+    background-image: url("../images/Vector-circ.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    transform: rotate(90deg);
+    animation: ruka-anim3 1s linear infinite;
+  }
+  @keyframes ruka-anim3 {
+    0% {transform: rotate(450deg);}
+  }
 
 
   /* кнопка-крест */
   .knopka4 {
-    width: 6.5vw;
-    height: 6.5vw;
+    width: 6.6vw;
+    height: 6.6vw;
     background-image: url("../images/knopka2.svg");
     background-repeat: no-repeat;
     background-size: cover;
