@@ -1,7 +1,15 @@
 $(function () {
 
- // появление объектов на главной странице
+ // появление объектов на главной странице и - прогресс бар
  setTimeout( "jQuery('.h').show();",14000 );
+ setTimeout( "jQuery('.anim-t-d').hide();",14000 );
+
+// остановка анимации по клику
+ $(".t-d").click(function(){
+   $(this).css("animation", "none");
+   $(".anim-t-d").css("display", "none");
+   setTimeout( "jQuery('.h').show();",100 );
+ });
 
 
  // клик на белые круги
@@ -27,6 +35,27 @@ $(function () {
    $(".rec2-1").css("display", "block");
    $(".render_2 p").css("display", "block");
  });
+// музей
+$(".circle3-1").click(function(){
+  $(this).css("background-color", "#0092FF");
+  $(".rec3-1").css("display", "block");
+  $(".render_3 p:nth-of-type(1)").css("display", "block");
+});
+$(".circle3-2").click(function(){
+  $(this).css("background-color", "#0092FF");
+  $(".rec3-2").css("display", "block");
+  $(".render_3 p:nth-of-type(2)").css("display", "block");
+});
+$(".circle3-3").click(function(){
+  $(this).css("background-color", "#0092FF");
+  $(".rec3-3").css("display", "block");
+  $(".render_3 p:nth-of-type(3)").css("display", "block");
+});
+$(".circle3-4").click(function(){
+  $(this).css("background-color", "#0092FF");
+  $(".rec3-4").css("display", "block");
+  $(".render_3 p:nth-of-type(4)").css("display", "block");
+});
  // контакты
  $(".circle7-1").click(function(){
    $(this).css("background-color", "white");
@@ -105,6 +134,39 @@ $(function () {
    $(".block2-1").addClass("open2-1");
    $(".tour").removeClass("hidden");
  });
+ // музей
+ $(".render_3 p:nth-of-type(1)").click(function(){
+   $("html, body").animate( {
+     scrollTop: $(".block3-1").offset().top
+   }, 1000);
+   $(".knopka3-1").addClass("knopka4");
+   $(".block3-1").addClass("open3-1");
+   $(".block3-1-content").removeClass("hidden");
+ });
+ $(".render_3 p:nth-of-type(2)").click(function(){
+   $("html, body").animate( {
+     scrollTop: $(".block3-4").offset().top
+   }, 1500);
+   $(".knopka3-4").addClass("knopka4");
+   $(".block3-4").addClass("open3-4");
+   $(".block3-4-content").removeClass("hidden");
+ });
+ $(".render_3 p:nth-of-type(3)").click(function(){
+   $("html, body").animate( {
+     scrollTop: $(".block3-3").offset().top
+   }, 2000);
+   $(".knopka3-3").addClass("knopka4");
+   $(".block3-3").addClass("open3-3");
+   $(".block3-3-content").removeClass("hidden");
+ });
+ $(".render_3 p:nth-of-type(4)").click(function(){
+   $("html, body").animate( {
+     scrollTop: $(".block3-2").offset().top
+   }, 2500);
+   $(".knopka3-2").addClass("knopka4");
+   $(".block3-2").addClass("open3-2");
+   $(".block3-2-content").removeClass("hidden");
+ });
  // контакты
  $(".render_7 p:nth-of-type(2)").click(function(){
    $("html, body").animate( {
@@ -155,6 +217,27 @@ $(function () {
    $(this).toggleClass("knopka4");
    $(".block2-1").toggleClass("open2-1");
    $(".tour").toggleClass("hidden");
+ });
+ // музей
+ $(".knopka3-1").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block3-1").toggleClass("open3-1");
+   $(".block3-1-content").toggleClass("hidden");
+ });
+ $(".knopka3-2").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block3-2").toggleClass("open3-2");
+   $(".block3-2-content").toggleClass("hidden");
+ });
+ $(".knopka3-3").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block3-3").toggleClass("open3-3");
+   $(".block3-3-content").toggleClass("hidden");
+ });
+ $(".knopka3-4").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block3-4").toggleClass("open3-4");
+   $(".block3-4-content").toggleClass("hidden");
  });
   // контакты
   $(".knopka7-1").click(function(){
@@ -265,6 +348,65 @@ $(".form-dot3").click(function(){
   $(this).toggleClass("form-dot-4");
   // $(".form-dot1").addClass("form-dot-5");
   // $(".form-dot2").addClass("form-dot-5");
+});
+
+// инфо
+$(".info-circle").hover(function() {
+  $(".info-rec, .info-text").css("display", "block");
+});
+$(".info-circle").mouseleave(function() {
+ $(".info-rec, .info-text").css("display", "none");
+});
+
+// появление объектов по ховеру
+// книга блок 1
+$("span:nth-of-type(1)").hover(function() {
+  $(".bl-3-1-obj-1").css("display", "block");
+});
+$("span:nth-of-type(1)").mouseleave(function() {
+ $(".bl-3-1-obj-1").css("display", "none");
+});
+$("span:nth-of-type(2)").hover(function() {
+  $(".bl-3-1-obj-2").css("display", "block");
+});
+$("span:nth-of-type(2)").mouseleave(function() {
+ $(".bl-3-1-obj-2").css("display", "none");
+});
+$(".bl-3-2-text > p > span:nth-of-type(1)").hover(function() {
+  $(".bl-3-2-obj-1").css("display", "block");
+});
+$(".bl-3-2-text > p > span:nth-of-type(1)").mouseleave(function() {
+ $(".bl-3-2-obj-1").css("display", "none");
+});
+$(".bl-3-2-text > p > span:nth-of-type(2)").hover(function() {
+  $(".bl-3-2-obj-2").css("display", "block");
+});
+$(".bl-3-2-text > p > span:nth-of-type(2)").mouseleave(function() {
+ $(".bl-3-2-obj-2").css("display", "none");
+});
+$(".bl-3-3-text > p > span:nth-of-type(1)").hover(function() {
+  $(".bl-3-3-obj-1").css("display", "block");
+});
+$(".bl-3-3-text > p > span:nth-of-type(1)").mouseleave(function() {
+ $(".bl-3-3-obj-1").css("display", "none");
+});
+$(".bl-3-3-text > p > span:nth-of-type(2)").hover(function() {
+  $(".bl-3-3-obj-2").css("display", "block");
+});
+$(".bl-3-3-text > p > span:nth-of-type(2)").mouseleave(function() {
+ $(".bl-3-3-obj-2").css("display", "none");
+});
+$(".bl-3-4-text > p > span:nth-of-type(1)").hover(function() {
+  $(".bl-3-4-obj-1").css("display", "block");
+});
+$(".bl-3-4-text > p > span:nth-of-type(1)").mouseleave(function() {
+ $(".bl-3-4-obj-1").css("display", "none");
+});
+$(".bl-3-4-text > p > span:nth-of-type(2)").hover(function() {
+  $(".bl-3-4-obj-2").css("display", "block");
+});
+$(".bl-3-4-text > p > span:nth-of-type(2)").mouseleave(function() {
+ $(".bl-3-4-obj-2").css("display", "none");
 });
 
 // горизонтальный скролл
