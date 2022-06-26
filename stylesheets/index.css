@@ -46,11 +46,34 @@ body {
   color: #0092FF;
   letter-spacing: -5vh;
 }
+.anim-t-d {
+  height: 4vw;
+  width: 96vw;
+  bottom: 1vw;
+  left: 2vw;
+  z-index: 50;
+  position: absolute;
+  animation: anim-t-d 13s linear;
+  overflow-x: hidden;
+}
+@keyframes anim-t-d {
+  0% {width: 0vw;}
+  100% {width: 96vw;}
+}
+.anim-t-d-1 {
+  background-image: url("../images/anim-t-d.svg");
+  background-repeat: repeat-x;
+  background-size: contain;
+  height: 4vw;
+  bottom: 0vw;
+  left: 0vw;
+  width: 96vw;
+  position: relative;
+}
 
 /* скрытие элементов */
 .h {
   display: none;
-  position: absolute;
 }
 
 /* огромные объекты меню */
@@ -63,7 +86,9 @@ body {
   top: 31.5vw;
   left: 40.5vw;
   z-index: 5;
+  position: absolute;
 }
+
 .map {
   background-image: url("../images/карта.svg");
   background-repeat: no-repeat;
@@ -73,7 +98,9 @@ body {
   top: 0vw;
   left: -10.8vw;
   z-index: 5;
+  position: absolute;
 }
+
 .hand {
   background-image: url("../images/рука.svg");
   background-repeat: no-repeat;
@@ -84,7 +111,9 @@ body {
   left: -3vw;
   z-index: 10;
   cursor: url("../images/cursor/o_nas.svg"), auto;
+  position: absolute;
 }
+
 .sign {
   background-image: url("../images/знак.svg");
   background-repeat: no-repeat;
@@ -95,7 +124,9 @@ body {
   left: 34.5vw;
   z-index: 20;
   cursor: url("../images/cursor/faq.svg"), auto;
+  position: absolute;
 }
+
 .pugov {
   background-image: url("../images/пуговица.svg");
   background-repeat: no-repeat;
@@ -105,7 +136,9 @@ body {
   top: 11vw;
   left: 59.5vw;
   z-index: 5;
+  position: absolute;
 }
+
 .kolon {
   background-image: url("../images/колонна.svg");
   background-repeat: no-repeat;
@@ -116,7 +149,9 @@ body {
   left: 73.2vw;
   z-index: 10;
   cursor: url("../images/cursor/museum.svg"), auto;
+  position: absolute;
 }
+
 .korzina {
   background-image: url("../images/корзина.svg");
   background-repeat: no-repeat;
@@ -126,7 +161,9 @@ body {
   top: 33vw;
   left: -2vw;
   z-index: 400;
+  position: absolute;
 }
+
 
 /* кнопка информации */
 .info-button {
@@ -135,6 +172,7 @@ body {
   bottom: 0vw;
   right: 2vw;
   z-index: 370;
+  position: absolute;
 }
 .info-circle {
   height: 8vw;
@@ -144,6 +182,7 @@ body {
   right: 0;
   position: absolute;
   background-color: black;
+  position: absolute;
 }
 .info-i {
   background-image: url("../images/i.svg");
@@ -154,31 +193,32 @@ body {
   top: 1.7vw;
   right: 3.8vw;
   position: absolute;
+  position: absolute;
 }
 /* кнопка по клику */
 .click {
   display: none;
 }
 .info-rec {
-  height: 8vw;
-  width: 94vw;
-  top: 0;
-  left: 1vw;
-  background-color: black;
+  height: 3vw;
+  width: 10.5vw;
+  top: -1.1vw;
+  /* left: 86.8vw; */
+  right: 4.1vw;
+  background-color: white;
   position: absolute;
 }
 .info-text {
   height: 31.3vw;
   width: 37.4vw;
-  top: 1.7vw;
-  left: 60.5vw;
+  top: -0.4vw;
+  /* left: 88.5vw; */
+  right: -24.2vw;
   position: absolute;
 }
 .info-text > p{
   font-family: "OktaNeue-Regular";
-  font-size: 2vw;
-  line-height: 2vw;
-  color: white;
+  font-size: 0.76vw;
 }
 
 
@@ -190,6 +230,7 @@ body {
   left: 46.9vw;
   z-index: 400;
   cursor: url("../images/cursor/tour.svg"), auto;
+  position: absolute;
 }
 .block-map {
   height: 21vw;
@@ -198,6 +239,7 @@ body {
   left: 0vw;
   z-index: 400;
   cursor: url("../images/cursor/contacts.svg"), auto;
+  position: absolute;
 }
 .block-pugov {
   height: 15.3vw;
@@ -206,6 +248,7 @@ body {
   left: 55.5vw;
   z-index: 400;
   cursor: url("../images/cursor/events.svg"), auto;
+  position: absolute;
 }
 .block-korzina {
   height: 23.3vw;
@@ -214,4 +257,5 @@ body {
   left: 0.5vw;
   z-index: 420;
   cursor: url("../images/cursor/store.svg"), auto;
+  position: absolute;
 }
