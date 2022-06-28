@@ -7,12 +7,17 @@
 @import 'tour.css';
 /* музей */
 @import 'museum.css';
+/* события */
+@import 'events.css';
+/* магазин */
+@import 'shop.css';
+/* faq */
+@import 'faq.css';
 /* контакты */
 @import 'contacts.css';
 /* 404 */
 @import '404.css';
-/* faq */
-@import 'faq.css';
+
 /* адаптивность */
 @import 'responsive.css';
 

@@ -394,6 +394,7 @@ header {
   justify-content: space-around;
   align-items: flex-start;
   display: flex;
+  overflow-x: visible;
 }
   .zagolovok3 {
     width: 52.4vw;

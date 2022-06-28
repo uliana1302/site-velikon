@@ -56,6 +56,39 @@ $(".circle3-4").click(function(){
   $(".rec3-4").css("display", "block");
   $(".render_3 p:nth-of-type(4)").css("display", "block");
 });
+// события
+$(".circle4-1").click(function(){
+  $(this).css("background-color", "#0092FF");
+  $(".rec4-1").css("display", "block");
+  $(".render_4 p:nth-of-type(1)").css("display", "block");
+});
+$(".circle4-2").click(function(){
+  $(this).css("background-color", "#0092FF");
+  $(".rec4-2").css("display", "block");
+  $(".render_4 p:nth-of-type(2)").css("display", "block");
+});
+// магазин
+$(".circle5-1").click(function(){
+  $(this).css("background-color", "#0092FF");
+  $(".rec5-1").css("display", "block");
+  $(".render_5 p:nth-of-type(1)").css("display", "block");
+});
+$(".circle5-2").click(function(){
+  $(this).css("background-color", "#0092FF");
+  $(".rec5-2").css("display", "block");
+  $(".render_5 p:nth-of-type(2)").css("display", "block");
+});
+// faq
+$(".circle6").click(function(){
+  $(this).css("background-color", "#0092FF");
+  $(".rec6").css("display", "block");
+  $(".render_6 p:nth-of-type(1)").css("display", "block");
+});
+$(".circle6-2").click(function(){
+  $(this).css("background-color", "#0092FF");
+  $(".rec6-2").css("display", "block");
+  $(".render_6 p:nth-of-type(2)").css("display", "block");
+});
  // контакты
  $(".circle7-1").click(function(){
    $(this).css("background-color", "white");
@@ -87,17 +120,7 @@ $(".circle3-4").click(function(){
    $(".rec7-6").css("display", "block");
    $(".render_7 p:nth-of-type(6)").css("display", "block");
  });
- // faq
- $(".circle6").click(function(){
-   $(this).css("background-color", "#0092FF");
-   $(".rec6").css("display", "block");
-   $(".render_6 p:nth-of-type(1)").css("display", "block");
- });
- $(".circle6-2").click(function(){
-   $(this).css("background-color", "#0092FF");
-   $(".rec6-2").css("display", "block");
-   $(".render_6 p:nth-of-type(2)").css("display", "block");
- });
+
 
  // скролл и открытие разделов
  // о нас
@@ -167,14 +190,39 @@ $(".circle3-4").click(function(){
    $(".block3-2").addClass("open3-2");
    $(".block3-2-content").removeClass("hidden");
  });
- // контакты
- $(".render_7 p:nth-of-type(2)").click(function(){
+ // события
+ $(".render_4 p:nth-of-type(1)").click(function(){
    $("html, body").animate( {
-     scrollTop: $(".block7-1").offset().top
+     scrollTop: $(".block4-1").offset().top
    }, 1000);
-   $(".knopka7-1").addClass("knopka4");
-   $(".block7-1").addClass("open7-1");
-   $(".contacts").removeClass("hidden");
+   $(".knopka4-1").addClass("knopka4");
+   $(".block4-1").addClass("open4-1");
+   $(".block4-1-content").removeClass("hidden");
+ });
+ $(".render_4 p:nth-of-type(2)").click(function(){
+   $("html, body").animate( {
+     scrollTop: $(".block4-2").offset().top
+   }, 1500);
+   $(".knopka4-2").addClass("knopka4");
+   $(".block4-2").addClass("open4-2");
+   $(".block4-2-content").removeClass("hidden");
+ });
+ // магазин
+ $(".render_5 p:nth-of-type(1)").click(function(){
+   $("html, body").animate( {
+     scrollTop: $(".block5-1").offset().top
+   }, 1000);
+   $(".knopka5-1").addClass("knopka4");
+   $(".block5-1").addClass("open5-1");
+   $(".block5-1-content").removeClass("hidden");
+ });
+ $(".render_5 p:nth-of-type(2)").click(function(){
+   $("html, body").animate( {
+     scrollTop: $(".block5-2").offset().top
+   }, 1500);
+   $(".knopka5-2").addClass("knopka4");
+   $(".block5-2").addClass("open5-2");
+   $(".block5-2-content").removeClass("hidden");
  });
  // FAQ
  $(".render_6 p:nth-of-type(1)").click(function(){
@@ -193,6 +241,16 @@ $(".circle3-4").click(function(){
    $(".block6-2").addClass("open6-2");
    $(".form").removeClass("hidden");
  });
+ // контакты
+ $(".render_7 p:nth-of-type(2)").click(function(){
+   $("html, body").animate( {
+     scrollTop: $(".block7-1").offset().top
+   }, 1000);
+   $(".knopka7-1").addClass("knopka4");
+   $(".block7-1").addClass("open7-1");
+   $(".contacts").removeClass("hidden");
+ });
+
 
 
  // открытие разделов по клику на кнопку
@@ -239,23 +297,47 @@ $(".circle3-4").click(function(){
    $(".block3-4").toggleClass("open3-4");
    $(".block3-4-content").toggleClass("hidden");
  });
+ // события
+ $(".knopka4-1").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block4-1").toggleClass("open4-1");
+   $(".block4-1-content").toggleClass("hidden");
+ });
+ $(".knopka4-2").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block4-2").toggleClass("open4-2");
+   $(".block4-2-content").toggleClass("hidden");
+ });
+ // магазин
+ $(".knopka5-1").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block5-1").toggleClass("open5-1");
+   $(".block5-1-content").toggleClass("hidden");
+ });
+ $(".knopka5-2").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block5-2").toggleClass("open5-2");
+   $(".block5-2-content").toggleClass("hidden");
+ });
+ // FAQ
+ $(".knopka6-1").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block6-1").toggleClass("open6-1");
+   $(".block6-1-content").toggleClass("hidden");
+ });
+ $(".knopka6-2").click(function(){
+   $(this).toggleClass("knopka4");
+   $(".block6-2").toggleClass("open6-2");
+   $(".form").toggleClass("hidden");
+ });
   // контакты
   $(".knopka7-1").click(function(){
     $(this).toggleClass("knopka4");
     $(".block7-1").toggleClass("open7-1");
     $(".contacts").toggleClass("hidden");
   });
-  // FAQ
-  $(".knopka6-1").click(function(){
-    $(this).toggleClass("knopka4");
-    $(".block6-1").toggleClass("open6-1");
-    $(".block6-1-content").toggleClass("hidden");
-  });
-  $(".knopka6-2").click(function(){
-    $(this).toggleClass("knopka4");
-    $(".block6-2").toggleClass("open6-2");
-    $(".form").toggleClass("hidden");
-  });
+
+
 
 // текст при наведении_появление
 // о нас
@@ -409,10 +491,42 @@ $(".bl-3-4-text > p > span:nth-of-type(2)").mouseleave(function() {
  $(".bl-3-4-obj-2").css("display", "none");
 });
 
-// горизонтальный скролл
-// $("cont3").addEvent('mouseover', scroll.start.bind(scroll));
-// $("cont3").addEvent('mouseout', scroll.stop.bind(scroll));
+// "горизонтальный скролл"
+$(".block3").draggable({axis: "x"});
+$(".form-div").draggable({axis: "x"});
+$(".block4-1-content").draggable({axis: "x"});
+$(".block4-2-content").draggable({axis: "x"});
 
+// клик на плакаты
+$(".ev-1-p-rec1").click(function(){
+  $(this).toggleClass("op-1");
+  $(".ev-1-1").toggleClass("ev-1-1-n");
+});
+$(".ev-1-p-rec2").click(function(){
+  $(this).toggleClass("op-1");
+  $(".ev-1-2").toggleClass("ev-1-2-n");
+});
+$(".ev-1-p-rec3").click(function(){
+  $(this).toggleClass("op-1");
+  $(".ev-1-3").toggleClass("ev-1-3-n");
+});
+$(".ev-1-p-rec4").click(function(){
+  $(this).toggleClass("op-1");
+  $(".ev-1-4").toggleClass("ev-1-4-n");
+});
+
+$(".ev-2-p-rec1").click(function(){
+  $(this).toggleClass("op-1");
+});
+$(".ev-2-p-rec2").click(function(){
+  $(this).toggleClass("op-1");
+});
+$(".ev-2-p-rec3").click(function(){
+  $(this).toggleClass("op-1");
+});
+$(".ev-2-p-rec4").click(function(){
+  $(this).toggleClass("op-1");
+});
 
 
 

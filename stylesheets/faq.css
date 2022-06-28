@@ -249,6 +249,7 @@
     justify-content: space-between;
     align-items: flex-start;
     display: flex;
+    overflow-x: visible;
   }
   .form-block-1 {
     width: 76.8vw;
