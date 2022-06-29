@@ -110,15 +110,10 @@ $(".circle6-2").click(function(){
    $(".rec7-4").css("display", "block");
    $(".render_7 p:nth-of-type(4)").css("display", "block");
  });
- $(".circle7-5").click(function(){
-   $(this).css("background-color", "white");
-   $(".rec7-5").css("display", "block");
-   $(".render_7 p:nth-of-type(5)").css("display", "block");
- });
  $(".circle7-6").click(function(){
    $(this).css("background-color", "white");
    $(".rec7-6").css("display", "block");
-   $(".render_7 p:nth-of-type(6)").css("display", "block");
+   $(".render_7 p:nth-of-type(5)").css("display", "block");
  });
 
 
@@ -418,18 +413,12 @@ $(".bl-text-6 p:nth-of-type(6)").mouseleave(function() {
 // радиокнопка
 $(".form-dot1").click(function(){
   $(this).toggleClass("form-dot-4");
-  // $(".form-dot2").addClass("form-dot-5");
-  // $(".form-dot3").addClass("form-dot-5");
 });
 $(".form-dot2").click(function(){
   $(this).toggleClass("form-dot-4");
-  // $(".form-dot1").addClass("form-dot-5");
-  // $(".form-dot3").addClass("form-dot-5");
 });
 $(".form-dot3").click(function(){
   $(this).toggleClass("form-dot-4");
-  // $(".form-dot1").addClass("form-dot-5");
-  // $(".form-dot2").addClass("form-dot-5");
 });
 
 // инфо
