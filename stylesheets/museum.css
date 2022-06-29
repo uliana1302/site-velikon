@@ -183,7 +183,7 @@
   }
   /* контен в открытом виде */
   .open3-1 {
-    height: 97vw;
+    height: 90vw;
   }
   .hidden {
     display: none;
@@ -192,19 +192,21 @@
     top: 60vw;
     left: 0;
     width: 100vw;
-    height: 84vw;
+    height: 78vw;
     position: absolute;
   }
   .bl-3-1-img {
-    top: 8vw;
+    top: -1vw;
     left: 0;
-    width: 100vw;
+    width: 300vw;
     height: 48vw;
-    background-image: url("../images/kniga-1.svg");
+    background-image: url("../images/kniga-1.png");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: visible;
+    position: absolute;
   }
-  .bl-3-1-knopka1 {
+  /* .bl-3-1-knopka1 {
     width: 6.6vw;
     height: 6.6vw;
     top: 21vw;
@@ -253,9 +255,9 @@
     height: 0.8vw;
     border-radius: 50%;
     background: black;
-  }
+  } */
   .bl-3-1-text {
-    top: 56vw;
+    top: 51vw;
     left: 4vw;
     width: 52.64vw;
     height: 24.3vw;
@@ -267,7 +269,7 @@
     line-height: 2.3vw;
   }
   .bl-3-1-t-m {
-    top: 66.4vw;
+    top: 61.4vw;
     left: 64vw;
     width: 13vw;
     height: 1.9vw;
@@ -280,7 +282,7 @@
   .bl-3-1-obj-1 {
     width: 20.4vw;
     height: 7.2vw;
-    top: 57.5vw;
+    top: 52.5vw;
     left: 34vw;
     background-image: url("../images/kniga1-1.svg");
     background-repeat: no-repeat;
@@ -291,7 +293,7 @@
   .bl-3-1-obj-2 {
     width: 10.3vw;
     height: 10.3vw;
-    top: 67vw;
+    top: 62vw;
     left: 19vw;
     background-image: url("../images/kniga1-2.svg");
     background-repeat: no-repeat;
@@ -337,26 +339,28 @@
   }
   /* контент в открытом виде */
   .open3-2 {
-    height: 91vw;
+    height: 86vw;
     position: relative;
   }
   .block3-2-content {
     top: 10vw;
     left: 0;
     width: 100vw;
-    height: 80vw;
+    height: 75vw;
     position: absolute;
   }
   .bl-3-2-img {
-    top: 8vw;
+    top: 1vw;
     left: 0;
-    width: 100vw;
+    width: 300vw;
     height: 48vw;
-    background-image: url("../images/kniga-2.svg");
+    background-image: url("../images/kniga-2.png");
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: visible;
+    position: absolute;
   }
-  .bl-3-2-knopka1 {
+  /* .bl-3-2-knopka1 {
     width: 6.6vw;
     height: 6.6vw;
     top: 21vw;
@@ -405,9 +409,9 @@
     height: 0.8vw;
     border-radius: 50%;
     background: black;
-  }
+  } */
   .bl-3-2-text {
-    top: 56vw;
+    top: 53vw;
     left: 4vw;
     width: 52.64vw;
     height: 24.3vw;
@@ -419,7 +423,7 @@
     line-height: 2.3vw;
   }
   .bl-3-2-t-m {
-    top: 66.4vw;
+    top: 63.4vw;
     left: 64vw;
     width: 13vw;
     height: 1.9vw;
@@ -432,7 +436,7 @@
   .bl-3-2-obj-1 {
     width: 32.4vw;
     height: 32.2vw;
-    top: 44.5vw;
+    top: 41.5vw;
     left: 30vw;
     background-image: url("../images/kniga-2-1.svg");
     background-repeat: no-repeat;
@@ -443,8 +447,8 @@
   .bl-3-2-obj-2 {
     width: 10.3vw;
     height: 7.4vw;
-    top: 66vw;
-    left: 15vw;
+    top: 63vw;
+    left: 13vw;
     background-image: url("../images/kniga-2-2.svg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -490,7 +494,7 @@
     }
     /* контен в открытом виде */
     .open3-3 {
-      height: 91vw;
+      height: 84vw;
       position: relative;
     }
     .hidden {
@@ -500,19 +504,21 @@
       top: 10vw;
       left: 0;
       width: 100vw;
-      height: 81vw;
+      height: 74vw;
       position: absolute;
     }
     .bl-3-3-img {
-      top: 8vw;
+      top: 1vw;
       left: 0;
-      width: 100vw;
+      width: 300vw;
       height: 48vw;
-      background-image: url("../images/kniga-3.svg");
+      background-image: url("../images/kniga-3.png");
       background-repeat: no-repeat;
       background-size: cover;
+      overflow-x: visible;
+      position: absolute;
     }
-    .bl-3-3-knopka1 {
+    /* .bl-3-3-knopka1 {
       width: 6.6vw;
       height: 6.6vw;
       top: 21vw;
@@ -561,9 +567,9 @@
       height: 0.8vw;
       border-radius: 50%;
       background: black;
-    }
+    } */
     .bl-3-3-text {
-      top: 56vw;
+      top: 53vw;
       left: 4vw;
       width: 52.64vw;
       height: 24.3vw;
@@ -575,7 +581,7 @@
       line-height: 2.3vw;
     }
     .bl-3-3-t-m {
-      top: 68.8vw;
+      top: 65.8vw;
       left: 64vw;
       width: 13vw;
       height: 1.9vw;
@@ -588,7 +594,7 @@
     .bl-3-3-obj-1 {
       width: 13.4vw;
       height: 10.2vw;
-      top: 53.5vw;
+      top: 50.5vw;
       left: 37vw;
       background-image: url("../images/kniga-3-1.svg");
       background-repeat: no-repeat;
@@ -599,7 +605,7 @@
     .bl-3-3-obj-2 {
       width: 30.3vw;
       height: 24.4vw;
-      top: 53vw;
+      top: 50vw;
       left: 15vw;
       background-image: url("../images/kniga-3-2.svg");
       background-repeat: no-repeat;
@@ -645,7 +651,7 @@
       }
       /* контен в открытом виде */
       .open3-4 {
-        height: 89vw;
+        height: 85vw;
         position: relative;
       }
       .hidden {
@@ -659,15 +665,17 @@
         position: absolute;
       }
       .bl-3-4-img {
-        top: 8vw;
+        top: 1vw;
         left: 0;
-        width: 100vw;
+        width: 300vw;
         height: 48vw;
-        background-image: url("../images/kniga-4.svg");
+        background-image: url("../images/kniga-4.png");
         background-repeat: no-repeat;
         background-size: cover;
+        overflow-x: visible;
+        position: absolute;
       }
-      .bl-3-4-knopka1 {
+      /* .bl-3-4-knopka1 {
         width: 6.6vw;
         height: 6.6vw;
         top: 21vw;
@@ -716,9 +724,9 @@
         height: 0.8vw;
         border-radius: 50%;
         background: black;
-      }
+      } */
       .bl-3-4-text {
-        top: 56vw;
+        top: 53vw;
         left: 4vw;
         width: 52.64vw;
         height: 24.3vw;
@@ -730,7 +738,7 @@
         line-height: 2.3vw;
       }
       .bl-3-4-t-m {
-        top: 59.4vw;
+        top: 56.4vw;
         left: 64vw;
         width: 13vw;
         height: 1.9vw;
@@ -743,7 +751,7 @@
       .bl-3-4-obj-1 {
         width: 5.5vw;
         height: 5.5vw;
-        top: 58.5vw;
+        top: 55.5vw;
         left: 10vw;
         background-image: url("../images/kniga-4-1.svg");
         background-repeat: no-repeat;
@@ -754,7 +762,7 @@
       .bl-3-4-obj-2 {
         width: 12.3vw;
         height: 16.4vw;
-        top: 61vw;
+        top: 58vw;
         left: 22vw;
         background-image: url("../images/kniga-4-2.svg");
         background-repeat: no-repeat;

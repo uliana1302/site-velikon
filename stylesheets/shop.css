@@ -211,7 +211,6 @@
     background-size: cover;
     margin-right: -11.5vw;
   }
-  .i11-1a, .i12-1a, .i13-1a, .i14-1a {background-image: url("../images/shop/ico-cart-act.svg");}
   .i11-2 {
     width: 3.37vw;
     height: 3.35vw;
@@ -219,7 +218,6 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
-  .i11-2a, .i12-2a, .i13-2a, .i14-2a {background-image: url("../images/shop/ico-fav-act.svg");}
   .i12-1 {
     width: 3.37vw;
     height: 3.35vw;
@@ -265,6 +263,7 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+
 
 /* раздел2 */
 .block5-2 {
@@ -321,12 +320,87 @@
     position: relative;
   }
   .block5-2-content {
-    top: 60vw;
+    top: 12vw;
     left: 4vw;
     width: 78.4vw;
     height: 34.3vw;
     position: absolute;
   }
+  .bl-5-2-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 62.5vw;
+    height: 29.3vw;
+  }
+  .cv-2-1 {
+    width: 27.9vw;
+    height: 26.3vw;
+    background-image: url("../images/shop/cv-5.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 0vw;
+  }
+  .cv-2-11 {background-image: url("../images/shop/n-cv-5.png");}
+  .cv-2-2 {
+    width: 27.9vw;
+    height: 26.3vw;
+    background-image: url("../images/shop/cv-6.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 4vw;
+  }
+  .cv-2-12 {background-image: url("../images/shop/n-cv-6.svg");}
+  .bl-5-2-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 59.9vw;
+    height: 3vw;
+  }
+  .ico-2-1, .ico-2-2 {
+    height: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .ico-2-1 {margin-left: -2vw; width: 31vw;}
+  .ico-2-2 {margin-left: 1vw; width: 31vw;}
+  .i15-3 {
+    width: 3.37vw;
+    height: 3.35vw;
+    background-image: url("../images/shop/ico-play.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 1vw;
+  }
+  .i15-2 {
+    width: 3.37vw;
+    height: 3.35vw;
+    background-image: url("../images/shop/ico-fav.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .i16-3 {
+    width: 3.37vw;
+    height: 3.35vw;
+    background-image: url("../images/shop/ico-play.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 1vw;
+  }
+  .i16-2 {
+    width: 3.37vw;
+    height: 3.35vw;
+    background-image: url("../images/shop/ico-fav.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .i11-1a {background-image: url("../images/shop/ico-cart-act.svg");}
+  .i11-2a {background-image: url("../images/shop/ico-fav-act.svg");}
 
 
 
