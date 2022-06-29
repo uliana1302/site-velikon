@@ -496,6 +496,8 @@ $(".block3").draggable({axis: "x"});
 $(".form-div").draggable({axis: "x"});
 $(".block4-1-content").draggable({axis: "x"});
 $(".block4-2-content").draggable({axis: "x"});
+$(".block5-1-content").draggable({axis: "x"});
+
 
 // клик на плакаты
 $(".ev-1-p-rec1").click(function(){
@@ -527,7 +529,44 @@ $(".ev-2-p-rec3").click(function(){
 $(".ev-2-p-rec4").click(function(){
   $(this).toggleClass("op-1");
 });
+// клик на носители магазин
+$(".cv-1-1").click(function(){
+  $(this).toggleClass("cv-1-11");
+});
+$(".cv-1-2").click(function(){
+  $(this).toggleClass("cv-1-12");
+});
+$(".cv-1-3").click(function(){
+  $(this).toggleClass("cv-1-13");
+});
+$(".cv-1-4").click(function(){
+  $(this).toggleClass("cv-1-14");
+});
 
-
+// кнопки магазин
+$(".i11-1").click(function(){
+  $(this).addClass("i11-1a");
+});
+$(".i11-2").click(function(){
+  $(this).addClass("i11-2a");
+});
+$(".i12-1").click(function(){
+  $(this).addClass("i12-1a");
+});
+$(".i12-2").click(function(){
+  $(this).addClass("i12-2a");
+});
+$(".i13-1").click(function(){
+  $(this).addClass("i13-1a");
+});
+$(".i13-2").click(function(){
+  $(this).addClass("i13-2a");
+});
+$(".i14-1").click(function(){
+  $(this).addClass("i14-1a");
+});
+$(".i14-2").click(function(){
+  $(this).addClass("i14-2a");
+});
 
 });

@@ -119,7 +119,7 @@
   }
   /* контен в открытом виде */
   .open5-1 {
-    height: 44.8vw;
+    height: 52.8vw;
   }
   .hidden {
     display: none;
@@ -127,11 +127,144 @@
   .block5-1-content {
     top: 60vw;
     left: 4vw;
-    width: 78.4vw;
-    height: 34.3vw;
+    width: 128vw;
+    height: 34vw;
     position: absolute;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    overflow-x: visible;
   }
-
+  .bl-5-1-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 128vw;
+    height: 29.3vw;
+  }
+  .cv-1-1 {
+    width: 29.3vw;
+    height: 29.3vw;
+    background-image: url("../images/shop/cv-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cv-1-11 {background-image: url("../images/shop/n-cv-1.svg");}
+  .cv-1-2 {
+    width: 30.8vw;
+    height: 30.8vw;
+    background-image: url("../images/shop/cv-2.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .cv-1-12 {background-image: url("../images/shop/n-cv-2.svg");}
+  .cv-1-3 {
+    width: 37.4vw;
+    height: 27vw;
+    background-image: url("../images/shop/cv-3.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1.8vw;
+  }
+  .cv-1-13 {background-image: url("../images/shop/n-cv-3.svg");}
+  .cv-1-4 {
+    width: 20.5vw;
+    height: 27.5vw;
+    background-image: url("../images/shop/cv-4-1.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 1.8vw;
+    margin-left: 1vw;
+  }
+  .cv-1-14 {background-image: url("../images/shop/n-cv-4.svg");}
+  .bl-5-1-text {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 142vw;
+    height: 3vw;
+  }
+  .ico-1-1, .ico-1-2, .ico-1-3, .ico-1-4 {
+    height: 3vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .ico-1-1 {margin-left: 2vw; width: 27vw;}
+  .ico-1-2 {margin-left: 5vw; width: 27vw;}
+  .ico-1-3 {margin-left: 5.2vw; width: 27vw;}
+  .ico-1-4 {margin-left: 14.5vw; width: 20.4vw;}
+  .i11-t {width: 7vw;}
+  .i11-t > p, .i12-t > p, .i13-t > p, .i14-t > p {
+    font-family: "OktaNeue-Regular";
+    font-size: 1.8vw;
+  }
+  .i11-1 {
+    width: 3.37vw;
+    height: 3.35vw;
+    background-image: url("../images/shop/ico-cart.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -11.5vw;
+  }
+  .i11-1a, .i12-1a, .i13-1a, .i14-1a {background-image: url("../images/shop/ico-cart-act.svg");}
+  .i11-2 {
+    width: 3.37vw;
+    height: 3.35vw;
+    background-image: url("../images/shop/ico-fav.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .i11-2a, .i12-2a, .i13-2a, .i14-2a {background-image: url("../images/shop/ico-fav-act.svg");}
+  .i12-1 {
+    width: 3.37vw;
+    height: 3.35vw;
+    background-image: url("../images/shop/ico-cart.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -13.5vw;
+  }
+  .i12-2 {
+    width: 3.37vw;
+    height: 3.35vw;
+    background-image: url("../images/shop/ico-fav.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .i13-1 {
+    width: 3.37vw;
+    height: 3.35vw;
+    background-image: url("../images/shop/ico-cart.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -13.5vw;
+  }
+  .i13-2 {
+    width: 3.37vw;
+    height: 3.35vw;
+    background-image: url("../images/shop/ico-fav.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .i14-1 {
+    width: 3.37vw;
+    height: 3.35vw;
+    background-image: url("../images/shop/ico-cart.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -7.5vw;
+  }
+  .i14-2 {
+    width: 3.37vw;
+    height: 3.35vw;
+    background-image: url("../images/shop/ico-fav.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
 
 /* раздел2 */
 .block5-2 {
