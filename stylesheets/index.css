@@ -269,7 +269,7 @@ body {
   left: 0;
   z-index: 700;
   display: none;
-  position: relative;
+  position: absolute;
   background-color: white;
 }
 .rect {
@@ -295,4 +295,11 @@ body {
   position: absolute;
   top: 85.5vw;
   left: 25.5vw;
+}
+.adaptive > p {
+  font-family: "OktaNeue-Light";
+  font-size: 1.7vw;
+  position: absolute;
+  top: 90vw;
+  left: 51.5vw;
 }

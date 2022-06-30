@@ -46,3 +46,9 @@
 @media all and (max-device-width: 950px) and (min-device-width: 850px) {
   .chemodan {top: 71.5vw;}
 }
+@media all and (max-device-width: 1791px) and (min-device-width: 1760px) {
+  @keyframes anim-t-d {0% {width: 0vw;} 100% {width: 80vw;}}
+}
+@media all and (max-device-width: 1760px) and (min-device-width: 1700px) {
+  @keyframes anim-t-d {0% {width: 0vw;} 100% {width: 70vw;}}
+}
