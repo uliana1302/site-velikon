@@ -1,16 +1,48 @@
 @media all and (min-device-width: 1919px) {
-  .menu-rec {height: 6.33vw;}
   .chemodan {height: 38vw; width: 59.5vw; top: 29vw; left: 43.5vw;}
   .map {height: 17.1vw; width: 32vw; top: 3vw; left: -3.8vw;}
   .hand {height: 49.2vw; width: 60vw; top: 1vw;}
   .sign {height: 60vw; width: 22.5vw; left: 37vw;}
   .pugov {top: 12.2vw; left: 60.5vw;}
   .kolon {width: 24.1vw; left: 76.2vw;}
-  .logo {height: 4.6vw; width: 6.4vw; left: 0;}
   .korzina {top: 25vw;}
   .info-circle {height: 6.5vw; width: 6.5vw; top: 2vw; right: -0.5vw;}
   .info-i {height: 4vw; width: 0.5vw; top: 3vw; right: 2.5vw;}
 }
 @media all and (max-device-width: 768px) and (orientation: portrait) {
   .adaptive {display: block;}
+}
+
+@media all and (max-device-width: 1650px) and (min-device-width: 1510px) {
+  .sign {height: 78.6vw; width: 28.5vw;}
+  .korzina {top: 41vw;}
+}
+@media all and (max-device-width: 1509px) and (min-device-width: 1350px) {
+  .sign {height: 80.6vw; width: 28.5vw; top: -3vw;}
+  .korzina {width: 47vw; height: 36.3vw; top: 42vw;}
+}
+@media all and (max-device-width: 1349px) and (min-device-width: 1200px) {
+  .chemodan {top: 42.5vw;}
+  .sign {height: 80.6vw; width: 28.5vw; top: -3vw; z-index: 1;}
+  .korzina {width: 48vw; height: 36.3vw; top: 52vw;}
+  .hand {top: 9.5vw;}
+  .pugov {top: 19vw;}
+}
+@media all and (max-device-width: 1199px) and (min-device-width: 1056px) {
+  .chemodan {top: 50.5vw;}
+  .hand {height: 60.2vw; width: 72vw; top: 8.5vw;}
+  .sign {height: 80.6vw; width: 28.5vw; top: -3vw; z-index: 1;}
+  .pugov {top: 21vw;}
+  .korzina {width: 50vw; height: 38.3vw; top: 58vw;}
+}
+@media all and (max-device-width: 1055px) and (min-device-width: 850px) {
+  .chemodan {top: 61.5vw;}
+  .hand {height: 65.2vw; width: 84vw; top: 19.5vw;}
+  .sign {height: 80.6vw; width: 29.5vw; top: -3vw; z-index: 1;}
+  .pugov {top: 21vw;}
+  .korzina {top: 77vw; width: 52vw; height: 40.3vw;}
+  .map {top: 7vw;}
+}
+@media all and (max-device-width: 950px) and (min-device-width: 850px) {
+  .chemodan {top: 71.5vw;}
 }

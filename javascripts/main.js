@@ -422,11 +422,9 @@ $(".form-dot3").click(function(){
 });
 
 // инфо
-$(".info-circle").hover(function() {
+
+$(".info-circle").click(function() {
   $(".info-rec, .info-text").css("display", "block");
-});
-$(".info-circle").mouseleave(function() {
- $(".info-rec, .info-text").css("display", "none");
 });
 
 // появление объектов по ховеру
