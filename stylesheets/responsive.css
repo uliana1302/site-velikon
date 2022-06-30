@@ -52,3 +52,6 @@
 @media all and (max-device-width: 1760px) and (min-device-width: 1700px) {
   @keyframes anim-t-d {0% {width: 0vw;} 100% {width: 70vw;}}
 }
+@media all and (max-device-width: 1020px) {
+  .podpic2-1, .podpic5-1, .podpic5-2, .podpic3-1, .podpic3-2, .podpic3-3, .podpic3-4, .podpic6-1, .podpic6-2, .podpic4-1, .podpic4-2, .podpic7-1, .podpic1, .podpic2, .podpic3 {opacity: 0;}
+}
