@@ -11,3 +11,6 @@
   .info-circle {height: 6.5vw; width: 6.5vw; top: 2vw; right: -0.5vw;}
   .info-i {height: 4vw; width: 0.5vw; top: 3vw; right: 2.5vw;}
 }
+@media all and (max-device-width: 768px) and (orientation: portrait) {
+  .adaptive {display: block;}
+}
